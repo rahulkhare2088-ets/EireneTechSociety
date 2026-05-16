@@ -1,371 +1,175 @@
 <!DOCTYPE html> 
-
 <html lang="en"> 
-
 <head> 
-
     <meta charset="UTF-8"> 
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-
     <title>ETS Order Fulfillment Processor Engine</title> 
-
     <!-- Tailwind CSS for Modern Styling --> 
-
     <script src="https://tailwindcss.com"></script> 
-
     <!-- FontAwesome for Icons --> 
-
     <link rel="stylesheet" href="https://cloudflare.com"> 
-
     <style> 
-
         .gradient-bg { 
-
             background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); 
-
         } 
-
     </style> 
-
 </head> 
-
 <body class="bg-slate-50 text-slate-800 font-sans antialiased"> 
-
- 
-
     <!-- Header Navigation --> 
-
     <header class="bg-slate-900 text-white sticky top-0 z-50 shadow-md"> 
-
         <div class="max-w-6xl mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center gap-4"> 
-
             <div class="flex items-center space-x-3"> 
-
                 <div class="bg-indigo-600 p-2 rounded-lg text-white"> 
-
                     <i class="fa-solid fa-layer-group text-xl"></i> 
-
                 </div> 
-
                 <div> 
-
                     <span class="font-bold text-lg block tracking-tight">ETS Engine</span> 
-
                     <span class="text-xs text-indigo-400 block font-mono">v1.0.0-Beta (Spring Boot)</span> 
-
                 </div> 
-
             </div> 
-
             <nav class="flex items-center space-x-6 text-sm font-medium"> 
-
                 <a href="#features" class="hover:text-indigo-400 transition">Features</a> 
-
                 <a href="#roadmap" class="hover:text-indigo-400 transition">Roadmap</a> 
-
                 <a href="#docs" class="hover:text-indigo-400 transition">API Reference</a> 
-
                 <a href="https://www.postman.com/eirene-tech-society-2088/ets-public/documentation/bu73jqs/order-fulfillment-processor-engine?sideView=agentMode" target="_blank" class="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-md font-semibold transition flex items-center gap-2"> 
-
                     <i class="fa-solid fa-code"></i> View Postman Docs 
-
                 </a> 
-
             </nav> 
-
         </div> 
-
     </header> 
-
- 
-
     <!-- Hero Section --> 
-
     <section class="gradient-bg text-white py-20 px-4 text-center"> 
-
         <div class="max-w-4xl mx-auto"> 
-
             <span class="bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 text-xs uppercase tracking-widest font-bold px-3 py-1 rounded-full">Day 1: Closed Source - Free Public API Tier</span> 
-
             <h1 class="text-4xl md:text-5xl font-extrabold mt-6 tracking-tight leading-tight"> 
-
                 High-Performance <span class="text-indigo-400">Order Fulfillment Processor</span> Engine 
-
             </h1> 
-
             <p class="mt-4 text-lg text-slate-400 max-w-2xl mx-auto"> 
-
                 An industrial-grade ecosystem featuring an Authorization Server, robust API Gateway, and resilient processing cores designed to scale your business logistics seamlessly. 
-
             </p> 
-
             <div class="mt-8 flex flex-wrap justify-center gap-4"> 
-
                 <a href="https://www.postman.com/eirene-tech-society-2088/ets-public/documentation/bu73jqs/order-fulfillment-processor-engine?sideView=agentMode" target="_blank" class="bg-slate-100 text-slate-900 font-bold px-6 py-3 rounded-lg shadow-lg hover:bg-white transition flex items-center gap-2"> 
-
                     <i class="fa-solid fa-rocket"></i> Test Free API Endpoints 
-
                 </a> 
-
                 <a href="#sponsor" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold px-6 py-3 rounded-lg shadow-lg transition flex items-center gap-2"> 
-
                     <i class="fa-solid fa-heart"></i> Sponsor Server Costs 
-
                 </a> 
-
             </div> 
-
             <!-- Tech Stack Badges --> 
-
             <div class="mt-12 pt-8 border-t border-slate-800 flex justify-center flex-wrap gap-6 text-sm text-slate-400 font-mono"> 
-
                 <span><i class="fa-solid fa-leaf text-green-500 mr-2"></i>Spring Boot Core</span> 
-
                 <span><i class="fa-solid fa-shield-halved text-blue-400 mr-2"></i>OAuth2 Auth Server</span> 
-
                 <span><i class="fa-solid fa-network-wired text-purple-400 mr-2"></i>API Gateway</span> 
-
                 <span><i class="fa-solid fa-server text-orange-400 mr-2"></i>Live on Render/AWS</span> 
-
             </div> 
-
         </div> 
-
     </section> 
-
- 
-
     <!-- Architecture & Features --> 
-
     <section id="features" class="py-16 max-w-6xl mx-auto px-4"> 
-
         <h2 class="text-3xl font-bold text-center tracking-tight text-slate-900">Engine Core Component Architecture</h2> 
-
-        <p class="text-center text-slate-600 mt-2">Engineered modularly for high-throughput scaling and secure API client transactions.</p> 
-
-         
-
+        <p class="text-center text-slate-600 mt-2">Engineered modularly for high-throughput scaling and secure API client transactions.</p>         
         <div class="grid md:grid-cols-3 gap-8 mt-12"> 
-
             <!-- Component 1 --> 
-
             <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200"> 
-
                 <div class="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-lg flex items-center justify-center mb-4"> 
-
                     <i class="fa-solid fa-lock text-xl"></i> 
-
                 </div> 
-
                 <h3 class="text-xl font-bold text-slate-900">Authorization Server</h3> 
-
                 <p class="text-slate-600 mt-2 text-sm leading-relaxed"> 
-
                     Secures all downstream services using cryptographically signed access tokens, enabling safe third-party integrations and multi-tenant domain mapping. 
-
                 </p> 
-
             </div> 
-
             <!-- Component 2 --> 
-
             <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200"> 
-
                 <div class="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-lg flex items-center justify-center mb-4"> 
-
                     <i class="fa-solid fa-route text-xl"></i> 
-
                 </div> 
-
                 <h3 class="text-xl font-bold text-slate-900">API Gateway Proxy</h3> 
-
                 <p class="text-slate-600 mt-2 text-sm leading-relaxed"> 
-
                     Manages external operational boundaries, shielding back-end infrastructure while controlling request routing, security, and response mapping. 
-
                 </p> 
-
             </div> 
-
             <!-- Component 3 --> 
-
             <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200"> 
-
                 <div class="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-lg flex items-center justify-center mb-4"> 
-
                     <i class="fa-solid fa-box text-xl"></i> 
-
                 </div> 
-
                 <h3 class="text-xl font-bold text-slate-900">Fulfillment Engine</h3> 
-
                 <p class="text-slate-600 mt-2 text-sm leading-relaxed"> 
-
                     Processes structured transaction requests, tracks product shipments, balances network loads, and syncs execution workflows across data layers. 
-
                 </p> 
-
             </div> 
-
         </div> 
-
     </section> 
-
- 
-
     <!-- Transparent Community Journey / Roadmap --> 
-
     <section id="roadmap" class="bg-slate-100 py-16 px-4"> 
-
         <div class="max-w-4xl mx-auto"> 
-
             <h2 class="text-3xl font-bold text-center tracking-tight text-slate-900">The Journey Ahead: Crowdfund to Apache</h2> 
-
             <p class="text-center text-slate-600 mt-2">How we scale from a solo-developed deployment into a community-led open foundation.</p> 
-
- 
-
             <div class="mt-12 space-y-8 relative before:absolute before:inset-0 before:left-4 md:before:left-1/2 before:w-0.5 before:bg-slate-300"> 
-
                 <!-- Step 1 --> 
-
                 <div class="flex flex-col md:flex-row items-stretch relative"> 
-
                     <div class="md:w-1/2 md:pr-8 text-left md:text-right flex flex-col justify-center pl-8 md:pl-0"> 
-
                         <span class="text-indigo-600 font-mono font-bold text-sm">Phase 1: Bootstrapping (Current)</span> 
-
                         <h4 class="text-lg font-bold mt-1 text-slate-900">Public Free Tier APIs</h4> 
-
                         <p class="text-sm text-slate-600 mt-1">The engine runs closed-source to refine performance. General users enjoy free API quotas supported entirely by public crowd-funding and sponsorships for base server upkeep.</p> 
-
                     </div> 
-
                     <div class="absolute left-4 md:left-1/2 transform -translate-x-1/2 w-4 h-4 rounded-full bg-indigo-600 border-4 border-white top-1"></div> 
-
                     <div class="md:w-1/2 md:pl-8 hidden md:block"></div> 
-
                 </div> 
-
- 
-
                 <!-- Step 2 --> 
-
                 <div class="flex flex-col md:flex-row items-stretch relative"> 
-
                     <div class="md:w-1/2 md:pr-8 hidden md:block"></div> 
-
                     <div class="absolute left-4 md:left-1/2 transform -translate-x-1/2 w-4 h-4 rounded-full bg-slate-400 border-4 border-white top-1"></div> 
-
                     <div class="md:w-1/2 md:pl-8 text-left flex flex-col justify-center pl-8"> 
-
                         <span class="text-slate-500 font-mono font-bold text-sm">Phase 2: Open Core & Stability</span> 
-
                         <h4 class="text-lg font-bold mt-1 text-slate-900">Enterprise Tiers & Crowdfund Scale</h4> 
-
                         <p class="text-sm text-slate-600 mt-1">As user counts expand, premium high-volume enterprise subscription layers launch. All revenue goes straight toward scaling cloud servers, with 10% dedicated to founder upkeep.</p> 
-
                     </div> 
-
                 </div> 
-
- 
-
                 <!-- Step 3 --> 
-
                 <div class="flex flex-col md:flex-row items-stretch relative"> 
-
                     <div class="md:w-1/2 md:pr-8 text-left md:text-right flex flex-col justify-center pl-8 md:pl-0"> 
-
                         <span class="text-slate-500 font-mono font-bold text-sm">Phase 3: The Ultimate Vision</span> 
-
                         <h4 class="text-lg font-bold mt-1 text-slate-900">Apache 2.0 Open Source Foundation</h4> 
-
                         <p class="text-sm text-slate-600 mt-1">Once a broad developer ecosystem takes root, the codebase goes completely open-source under the Apache License. We transition governance into an official legal Section 8 non-profit foundation.</p> 
-
                     </div> 
-
                     <div class="absolute left-4 md:left-1/2 transform -translate-x-1/2 w-4 h-4 rounded-full bg-slate-400 border-4 border-white top-1"></div> 
-
                     <div class="md:w-1/2 md:pl-8 hidden md:block"></div> 
-
                 </div> 
-
             </div> 
-
         </div> 
-
     </section> 
-
- 
-
     <!-- Support & Crowd-funding Section --> 
-
     <section id="sponsor" class="py-16 max-w-4xl mx-auto px-4 text-center"> 
-
         <div class="bg-indigo-50 border border-indigo-100 rounded-2xl p-8 md:p-12"> 
-
             <h2 class="text-2xl md:text-3xl font-bold text-slate-900">Support the Infrastructure</h2> 
-
             <p class="text-slate-600 mt-2 max-w-xl mx-auto text-sm md:text-base"> 
-
                 This project is run entirely by a solo founder. Every donation helps cover live cluster costs on Render, AWS, and Neon DB to keep the system free for the global developer public. 
-
             </p> 
-
             <div class="mt-8 flex flex-col sm:flex-row justify-center items-center gap-4"> 
-
                 <!-- Replace '#' with your actual GitHub Sponsors or Buy Me A Coffee URL --> 
-
                 <a href="#" target="_blank" class="w-full sm:w-auto bg-slate-900 hover:bg-slate-800 text-white text-sm font-bold px-6 py-3 rounded-lg flex items-center justify-center gap-2 transition shadow-sm"> 
-
                     <i class="fa-brands fa-github text-lg"></i> Sponsor via GitHub 
-
                 </a> 
-
                 <!-- Replace '#' with your actual UPI/Razorpay link --> 
-
                 <a href="#" target="_blank" class="w-full sm:w-auto bg-indigo-600 hover:bg-indigo-700 text-white text-sm font-bold px-6 py-3 rounded-lg flex items-center justify-center gap-2 transition shadow-sm"> 
-
                     <i class="fa-solid fa-credit-card"></i> Micro-Donate (UPI / Card) 
-
                 </a> 
-
             </div> 
-
             <p class="text-xs text-slate-400 mt-4 font-mono">Managed via Sole Proprietorship Ledger • Full accounting transparency tracking</p> 
-
         </div> 
-
     </section> 
-
- 
-
     <!-- Footer --> 
-
     <footer class="bg-slate-900 text-slate-400 py-8 border-t border-slate-800 text-sm"> 
-
         <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-4"> 
-
             <p>&copy; 2026 Eirene Tech Society. Created by an independent software developer.</p> 
-
             <div class="flex space-x-6"> 
-
                 <a href="https://www.postman.com/eirene-tech-society-2088/ets-public/documentation/bu73jqs/order-fulfillment-processor-engine?sideView=agentMode" target="_blank" class="hover:text-white transition">API Reference Docs</a> 
-
                 <span class="text-slate-700">|</span> 
-
                 <span class="text-indigo-400 font-mono">Built with Spring Boot</span> 
-
             </div> 
-
         </div> 
-
     </footer> 
-
- 
-
 </body> 
-
 </html>
