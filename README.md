@@ -38,8 +38,8 @@ The platform splits complex fulfillment system into three decoupled, secure laye
 
 └────────┬────────────────────┬────────┘ 
 
-     OAuth2 Token Verification               Routed Requests     
-                ▼                                   ▼
+     OAuth2 Token Verification              Routed Requests     
+                ▼                                  ▼
 
 ┌───────────────────┐ ┌─────────────────┐ 
 
