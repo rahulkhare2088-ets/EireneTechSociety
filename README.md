@@ -87,13 +87,13 @@ The platform splits complex fulfillment system into three decoupled, secure laye
 
  
 
-*   **Backend Framework:** Spring Boot (Java) 
+*   **Backend Framework:** Spring Boot (Java open-source ecosystem) 
 
 *   **Security Protocols:** OAuth2 / JWT (JSON Web Tokens) 
 
 *   **Database Management:** Neon Serverless PostgreSQL 
 
-*   **Cloud Hosting Infrastructure:** Render (Compute Engines) & AWS (Cloud Network Matrix) 
+*   **Cloud Hosting Infrastructure:** Render (Compute Engines) & AWS (SQS) 
 
  
 
