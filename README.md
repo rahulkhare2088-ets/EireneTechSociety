@@ -38,12 +38,12 @@ The platform splits complex fulfillment system into three decoupled, secure laye
 
 └─────┬──────────────────────────┬─────┘ 
 
-             OAuth2 Token Verification                 Routed Requests     
+       OAuth2 Token Verification                 Routed Requests     
 ▼                                                ▼
 
 ┌───────────────────┐ ┌─────────────────┐ 
 
-                Authorization Server                     Fulfillment Engine  
+       Authorization Server                     Fulfillment Engine  
 
 └───────────────────┘ └─────────────────┘ 
 
