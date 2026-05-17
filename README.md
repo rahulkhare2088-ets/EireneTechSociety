@@ -36,10 +36,10 @@ The platform splits complex fulfillment system into three decoupled, secure laye
 
                        API Gateway Proxy  
 
-└────────┬──────────────────────┬──────┘ 
+└────────┬────────────────────┬────────┘ 
 
      OAuth2 Token Verification               Routed Requests     
-                ▼                                     ▼
+                ▼                                   ▼
 
 ┌───────────────────┐ ┌─────────────────┐ 
 
