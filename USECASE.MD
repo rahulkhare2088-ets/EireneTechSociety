@@ -51,7 +51,7 @@ this is critical for real-time supply chain visibility. Here is a breakdown of w
 
 *   Status: The order is Released (ready to be worked on) but Unplanned (not yet assigned to a specific truck or route).
 
-*   Domain: Specifically identifies "DISTRESSED_FOOD" and "PACK_HOLD" and "PROJECT_CUBE". This suggests the system is handling inventory that might be near expiration or requires special handling (likely "Distressed" means items that need to be cleared quickly or are slightly damaged).
+*   Domain: Specifically identifies "DISTRESSED_FOOD" and "PACK_HOLD" and "PROJECT_CUBE". This suggests the system is handling inventory that might be near expiration or requires special handling (likely "Distressed" means items that need to be cleared quickly or are slightly damaged) and Packed and Hold fulfillment strategy, covering scenarios where orders cannot be immediately shipped or picked up due to capacity or delivery constraints also Project cubes represent supplemental carton or cubic unit allowances that a store can absorb during peak fulfillment periods or when overflow capacity is required or due to supply chain disruption, where overstocking can help meet market demand. 
 
 ### 2. API Gateway Proxy 
 
