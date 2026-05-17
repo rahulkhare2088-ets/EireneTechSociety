@@ -29,8 +29,8 @@ The platform splits complex fulfillment system into three decoupled, secure laye
 
 └─────────────────┬────────────────────┘ 
 
-HTTPS 
-  ▼ 
+                                 HTTPS 
+                                   ▼ 
 
 ┌──────────────────────────────────────┐ 
 
