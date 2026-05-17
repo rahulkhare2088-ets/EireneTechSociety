@@ -23,22 +23,22 @@ The platform splits complex fulfillment system into three decoupled, secure laye
 
  
 
-┌───────────────────────────────────────┐ 
+┌──────────────────────────────────────┐ 
 
  Public API Client  
 
-└─────────────────┬─────────────────────┘ 
+└─────────────────┬────────────────────┘ 
 
 HTTPS 
   ▼ 
 
-┌───────────────────────────────────────┐ 
+┌──────────────────────────────────────┐ 
 
  API Gateway Proxy  
 
-└─────┬───────────────────────────┬─────┘ 
+└─────┬──────────────────────────┬─────┘ 
 
-OAuth2 Token Verification ▼  Routed Requests ▼     
+OAuth2 Token Verification ▼    Routed Requests ▼     
 
 ┌───────────────────┐ ┌─────────────────┐ 
 
