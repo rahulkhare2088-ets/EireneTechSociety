@@ -9,7 +9,7 @@ A high-performance, modular supply chain infrastructure engine built on **Spring
 
 *   **Interactive Documentation:** [Postman API Portal](https://www.postman.com/eirene-tech-society-2088/ets-public/documentation/bu73jqs/order-fulfillment-processor-engine?sideView=agentMode) 
 
-*   **Project Links:** Click below links and takes 1-2 min for instance to spin up and run, currenty after 15 min of idle time (no request) instance spin down automatically.
+*   **Project Links:** Click below 3 links and takes 1-2 min for instance to spin up and run, currenty after 15 min of idle time (no request) instance spin down automatically.
   
     [API Gateway Proxy](https://op-prod.onrender.com/swagger-ui/index.html)
     [Authorization Server](https://auth-service-21jy.onrender.com/)
