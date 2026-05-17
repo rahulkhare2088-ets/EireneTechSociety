@@ -41,17 +41,17 @@ out of the box, allowing a parent company to oversee multiple sub-entities or st
 
 Our XML order message represents a Distribution Order (DO) triggered by our order fulfillment API and placed onto queue for downstream processing. 
 It acts as a digital manifest telling a warehouse or transportation provider exactly what to move, where, and when.
-this is critical for real-time supply chain visibility. Here is a breakdown of what the data suggests
+this is critical for real-time supply chain visibility. Here is a breakdown of what the data suggests:
 
-### 1. Authorization Server 
+### The Core Event (The "What")
 
-*   Acts as the secure perimeter for identity and multi-tenant access control. 
+*   Action: A new order creation (Ex.Create).. 
 
-*   Issues cryptographically signed tokens to validate downstream requests securely. 
+*   Object: A DistributionOrder (ID: TC11223).
 
-*   Enables safe third-party integrations and protects client operational data boundaries. 
+*   Status: The order is Released (ready to be worked on) but Unplanned (not yet assigned to a specific truck or route).
 
- 
+*   Domain: Specifically identifies "DISTRESSED_FOOD" and "PACK_HOLD". This suggests the system is handling inventory that might be near expiration or requires special handling (likely "Distressed" means items that need to be cleared quickly or are slightly damaged).
 
 ### 2. API Gateway Proxy 
 
