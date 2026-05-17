@@ -19,13 +19,9 @@ A high-performance, modular supply chain infrastructure engine built on **Spring
 
  
 
-The platform splits complex fulfillment logistics into three decoupled, secure layers to prevent processing bottlenecks: 
+The platform splits complex fulfillment system into three decoupled, secure layers to prevent processing bottlenecks: 
 
  
-
-Use code with caution. 
-
-￼ 
 
 ┌──────────────────────┐ 
 
