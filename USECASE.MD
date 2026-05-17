@@ -53,14 +53,15 @@ this is critical for real-time supply chain visibility. Here is a breakdown of w
 
 *   Domain: Specifically identifies "DISTRESSED_FOOD" and "PACK_HOLD" and "PROJECT_CUBE". This suggests the system is handling inventory that might be near expiration or requires special handling (likely "Distressed" means items that need to be cleared quickly or are slightly damaged) and Packed and Hold fulfillment strategy, covering scenarios where orders cannot be immediately shipped or picked up due to capacity or delivery constraints also Project cubes represent supplemental carton or cubic unit allowances that a store can absorb during peak fulfillment periods or when overflow capacity is required or due to supply chain disruption, where overstocking can help meet market demand. 
 
-### 2. API Gateway Proxy 
+### Logistics & Routing (The "Where & When") 
 
-*   Serves as the single entry point for all external system calls, shielding internal services. 
+*   Origin (7954): The Distribution Center or Supplier where the items are currently located. 
 
-*   Manages operational boundaries, intelligent request routing, and payload inspection. 
+*   Destination (01103): The specific Store or Customer location.
 
-*   Ready with implementation of rate-limiting, CORS handling, and telemetry logging. 
-
+*   Schedule:
+        Pickup: November 26, 2025, between 2:00 PM and 4:00 PM.
+        Delivery: Scheduled for the following morning.
  
 
 ### 3. Fulfillment Processing Core 
