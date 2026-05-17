@@ -25,7 +25,7 @@ The platform splits complex fulfillment system into three decoupled, secure laye
 
 ┌──────────────────────┐ 
 
-│ Public API Client │ 
+    Public API Client  
 
 └──────────┬───────────┘ 
 
