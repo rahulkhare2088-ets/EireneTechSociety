@@ -64,13 +64,14 @@ this is critical for real-time supply chain visibility. Here is a breakdown of w
         Delivery: Scheduled for the following morning.
  
 
-### 3. Fulfillment Processing Core 
+### Inventory Details (The Line Items)
+The order contains three distinct line items, each with specific physical characteristics:
 
-*   Executes structured transaction requests and governs complex order life cycles. 
+*   Volume/Size: Each item takes up 80 Cubic Feet (Ft3). This is quite large (equivalent to a large pallet).
 
-*   Maintains strict data persistence synchronization across distributed microservices. 
+*   Product Class 9999: A generic code often used for miscellaneous or specialty items.
 
-*   Engineered to seamlessly balance platform network loads during peak request spikes. 
+*   Protection Level (FLOOR): Suggests these items don't require high-tier racking and can be stored on the warehouse floor.
 
  
 
