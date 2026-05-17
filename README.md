@@ -9,10 +9,10 @@ A high-performance, modular supply chain infrastructure engine built on **Spring
 
 *   **Interactive Documentation:** [Postman API Portal](https://www.postman.com/eirene-tech-society-2088/ets-public/documentation/bu73jqs/order-fulfillment-processor-engine?sideView=agentMode) 
 
-*   **Project Landing Pages:**
-*   [API Gateway Proxy](https://op-prod.onrender.com/swagger-ui/index.html)
-*   [Authorization Server](https://auth-service-21jy.onrender.com/)
-*   [Fulfillment Processing Core](https://order-service-bk2q.onrender.com/) 
+*   **Project Landing Pages:** Click below links a wait 1-2 min for instance to spin up
+    [API Gateway Proxy](https://op-prod.onrender.com/swagger-ui/index.html)
+    [Authorization Server](https://auth-service-21jy.onrender.com/)
+    [Fulfillment Processing Core](https://order-service-bk2q.onrender.com/) 
 
 --- 
 
