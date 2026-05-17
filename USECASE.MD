@@ -1,20 +1,17 @@
-# ETS Order Fulfillment Processor Engine v1.0.0-Beta 
+# Use Cases and Target Audience
 
-A high-performance, modular supply chain infrastructure engine built on **Spring Boot (Java open-source ecosystem)**. This ecosystem provides a secure **OAuth2 Authorization Server**, an isolated **API Gateway Proxy**, and a resilient **Fulfillment Processing Core** designed to handle asynchronous e-commerce (B2B) transaction state machines at scale.  
+Our target audience is segmented into three primary tiers based on the "Privilege" levels mentioned in the documentation:
 
-ℹ️ **Project Status:** Currently operating in **Phase 1 (Bootstrapping)**. The hosted API endpoints are **100% Free** for public use, sustained entirely via developer sponsorships and crowdfunding. 
+ℹ️ **Target Audience:**
 --- 
 
-## 🚀 Live API Reference & Links 
+## Business Entities (The Clients) 
 
-*   **Interactive Documentation:** [Postman API Portal](https://www.postman.com/eirene-tech-society-2088/ets-public/documentation/bu73jqs/order-fulfillment-processor-engine?sideView=agentMode) 
+*   **Mid-to-Large Retailers:** Companies managing multiple storefronts that need to sync inventory with central Distribution Centers (DCs).
 
-*   **Project Links:** Click below 3 links and takes 1-2 min for instance to spin up and run, currenty after 15 min of idle time (no request) instance spin down automatically.
+*   **3PL (Third-Party Logistics) Providers:** Entities that manage fulfillment for other brands and need an API to allow those brands to view their own stock.
   
-    [API Gateway Proxy](https://op-prod.onrender.com/swagger-ui/index.html)
-    [Authorization Server](https://auth-service-21jy.onrender.com/)
-    [Fulfillment Processing Core](https://order-service-bk2q.onrender.com/) 
-
+*   **B2B Wholesalers:** Suppliers who provide bulk inventory to smaller distributors or retail outlets.
 --- 
 
  
