@@ -38,8 +38,7 @@ HTTPS
 
 └─────┬────────────┬─────┘ 
 
-OAuth2 Token     Routed Requests ▼
-Verification ▼     
+OAuth2 Token Verification ▼  Routed Requests ▼     
 
 ┌──────────────────────┐ ┌──────────────────────┐ 
 
