@@ -45,13 +45,13 @@ this is critical for real-time supply chain visibility. Here is a breakdown of w
 
 ### The Core Event (The "What")
 
-*   Action: A new order creation (Ex.Create).. 
+*   Action: A new order creation (Create). 
 
 *   Object: A DistributionOrder (ID: TC11223).
 
 *   Status: The order is Released (ready to be worked on) but Unplanned (not yet assigned to a specific truck or route).
 
-*   Domain: Specifically identifies "DISTRESSED_FOOD" and "PACK_HOLD". This suggests the system is handling inventory that might be near expiration or requires special handling (likely "Distressed" means items that need to be cleared quickly or are slightly damaged).
+*   Domain: Specifically identifies "DISTRESSED_FOOD" and "PACK_HOLD" and "PROJECT_CUBE". This suggests the system is handling inventory that might be near expiration or requires special handling (likely "Distressed" means items that need to be cleared quickly or are slightly damaged).
 
 ### 2. API Gateway Proxy 
 
