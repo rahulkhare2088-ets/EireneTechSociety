@@ -34,7 +34,7 @@ HTTPS
 
 ┌──────────────────────────────────────┐ 
 
-                      API Gateway Proxy  
+                       API Gateway Proxy  
 
 └─────┬──────────────────────────┬─────┘ 
 
@@ -42,7 +42,7 @@ OAuth2 Token Verification ▼    Routed Requests ▼
 
 ┌───────────────────┐ ┌─────────────────┐ 
 
- Authorization Server  Fulfillment Engine  
+ Authorization Server          Fulfillment Engine  
 
 └───────────────────┘ └─────────────────┘ 
 
