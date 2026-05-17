@@ -27,7 +27,7 @@ Our target audience is segmented into three primary tiers based on the "Privileg
 
 *   **Omnichannel Retail:** Bridging the gap between an online order and a physical store/DC.
 
-*   **Food & Beverage Supply Chain:** Given the StoreSpFood naming, your primary niche appears to be perishable goods or specialty food distribution where rapid 
+*   **Food & Beverage Supply Chain:** Given the StoreSpFood naming, our primary niche appears to be perishable goods or specialty food distribution where rapid 
     fulfillment is critical.
 --- 
  
@@ -37,32 +37,6 @@ Our target audience is segmented into three primary tiers based on the "Privileg
  
 
 The platform splits complex fulfillment system into three decoupled, secure layers to prevent processing bottlenecks: 
-
- 
-
-┌──────────────────────────────────────┐ 
-
-     Public API Client Integration (AI Agent/UI/Mobile App)  
-
-└───────────────────┬──────────────────┘ 
-
-                              HTTPS 
-                                ▼ 
-
-┌──────────────────────────────────────┐ 
-
-                       API Gateway Proxy  
-
-└────────┬────────────────────┬────────┘ 
-
-     OAuth2 Token Verification            Routed Requests     
-                ▼                                ▼
-
-┌───────────────────┐ ┌─────────────────┐ 
-
-        Authorization Server            Fulfillment Engine  
-
-└───────────────────┘ └─────────────────┘ 
 
  
 
