@@ -7,9 +7,9 @@ A high-performance, modular logistics infrastructure engine built on **Spring Bo
 
 ## 🚀 Live API Reference & Links 
 
-*   **Interactive Documentation:** [Postman API Portal](https://postman.com) 
+*   **Interactive Documentation:** [Postman API Portal]([https://postman.com](https://www.postman.com/eirene-tech-society-2088/ets-public/documentation/bu73jqs/order-fulfillment-processor-engine?sideView=agentMode)) 
 
-*   **Project Landing Page:** [https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO_NAME/](https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO_NAME/) 
+*   **Project Landing Page:** [Eirene Tech Society]([https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO_NAME/](https://rahulkhare2088-ets.github.io/EireneTechSociety/)) 
 
 --- 
 
