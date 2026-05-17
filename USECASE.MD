@@ -2,7 +2,7 @@
 
 Our target audience is segmented into three primary tiers based on the "Privilege" levels mentioned in the documentation:
 
-ℹ️ **Target Audience:**
+**Target Audience:**
 --- 
 
 ## Business Entities (The Clients) 
@@ -14,6 +14,22 @@ Our target audience is segmented into three primary tiers based on the "Privileg
 *   **B2B Wholesalers:** Suppliers who provide bulk inventory to smaller distributors or retail outlets.
 --- 
 
+## Technical Stakeholders (The Users) 
+
+*   **Full-Stack & Backend Developers:** Those tasked with integrating existing ERP (Enterprise Resource Planning) systems or POS (Point of Sale) systems with your BaaS.
+
+*   **System Architects:** Professionals looking for a scalable "Order Processor" to avoid building a fulfillment engine from scratch.
+  
+*   **Data Analysts:** Specifically for the "Enterprise" tier, using the Excel upload/download features to perform bulk inventory updates and audits.
+--- 
+
+## Implementation Use Cases 
+
+*   **Omnichannel Retail:** Bridging the gap between an online order and a physical store/DC.
+
+*   **Food & Beverage Supply Chain:** Given the StoreSpFood naming, your primary niche appears to be perishable goods or specialty food distribution where rapid 
+    fulfillment is critical.
+--- 
  
 
 ## 🏗️ Ecosystem Architecture 
