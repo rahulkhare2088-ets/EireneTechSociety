@@ -39,7 +39,7 @@ Our target audience is segmented into three primary tiers based on the "Privileg
 As a BaaS platform, we are competing with headless commerce engines. Our value proposition lies in the "Privileged User" logic—essentially offering multi-tenancy
 out of the box, allowing a parent company to oversee multiple sub-entities or stores via a single API gateway. 
 
-Our XML order message represents a Distribution Order (DO) triggered by our order fulfillment API and placed onto queue for downstream processing. 
+Our XML order message represents a Distribution Order (DO) triggered by our order fulfillment API and placed for downstream processing. 
 It acts as a digital manifest telling a warehouse or transportation provider exactly what to move, where, and when.
 this is critical for real-time supply chain visibility. Here is a breakdown of what the sample data suggests:
 
@@ -69,7 +69,7 @@ The order contains three distinct line items, each with specific physical charac
 
 *   Volume/Size: Each item takes up 80 Cubic Feet (Ft3). This is quite large (equivalent to a large pallet).
 
-*   Product Class 9999: A generic code often used for miscellaneous or specialty items.
+*   Product Class (9999): A generic code often used for miscellaneous or specialty items.
 
 *   Protection Level (FLOOR): Suggests these items don't require high-tier racking and can be stored on the warehouse floor.
 
@@ -86,7 +86,7 @@ The order contains three distinct line items, each with specific physical charac
 ### Summary for Consumer
 If you are the "Consumer" of this XML order message, this data is telling you:
 
-*   "Hey, Company ETS has a new order (TC11223). You need to pick up 3 large units of distressed food and special project items from Facility 7954 on Thursday 
+*   "Hey, Company ETS has a new order (TC11223). You need to pick up 3 large units of distressed food and special project items from Facility (7954) on Thursday 
     afternoon and get them to Facility 01103. The order is released for picking, but you still need to assign a driver/truck."
 --- 
 
