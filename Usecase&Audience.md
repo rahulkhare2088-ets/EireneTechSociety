@@ -178,7 +178,7 @@ The landscape for open-source AI agents has matured toward agentic frameworks th
 
     If your fulfillment process is not a straight line (e.g., if a pickup fails, it must loop back to re-scheduling), LangGraph is the standard. 
 
-    Why it fits: It models agents as state machines. It can handle "cycles," allowing an agent to loop back and fix data (like our XML's distressed food flags) until it passes
+    Why it fits: It models agents as state machines. It can handle "cycles," allowing an agent to loop back and fix data (like our XML's order distressed food flags) until it passes
     validation.
 
     Integration: It provides precise control through graph-based workflows, making it ideal for complex backend tasks.
