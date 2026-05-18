@@ -86,7 +86,7 @@ The order contains three distinct line items, each with specific physical charac
 ### Summary for Consumer
 If you are the "Consumer" of this XML order message, this data is telling you:
 
-*   "Hey, Company ETS has a new order (TC11223). You need to pick up 3 large units of distressed food and special project items from Facility (7954) on Thursday 
+   "Hey, Company ETS has a new order (TC11223). You need to pick up 3 large units of distressed food and special project items from Facility (7954) on Thursday 
     afternoon and get them to Facility 01103. The order is released for picking, but you still need to assign a driver/truck."
 --- 
 
@@ -109,7 +109,7 @@ The XML order data shared is a perfect "trigger" for several specialized AI agen
   
     **Action**: Since our message specifically identifies DISTRESSED_FOOD, a specialized agent can cross-reference the Reference_ID with real-time expiration data.
 
-    Value: If the agent detects that the food has less than 48 hours of shelf life, it can automatically re-prioritize this order in the warehouse picking queue or
+    **Value**: If the agent detects that the food has less than 48 hours of shelf life, it can automatically re-prioritize this order in the warehouse picking queue or
     upgrade the shipping speed to ensure it doesn't become waste. 
 
 *   **Dynamic Routing & Rerouting Agent:** 
@@ -168,7 +168,7 @@ The landscape for open-source AI agents has matured toward agentic frameworks th
 
     CrewAI is highly recommended for supply chain use cases because it mirrors human organizational structures. 
 
-    Why it fits: You can define a "Crew" where one agent is a "Logistics Auditor" (to catch the delivery date error in your XML) and another is a "Warehouse Manager".
+    **Why it fits**: You can define a "Crew" where one agent is a "Logistics Auditor" (to catch the delivery date error in your XML) and another is a "Warehouse Manager".
 
     **Integration**: It is "lean" and works well with asynchronous flows, making it easy to plug into our existing system.
 
@@ -178,7 +178,7 @@ The landscape for open-source AI agents has matured toward agentic frameworks th
 
     If your fulfillment process is not a straight line (e.g., if a pickup fails, it must loop back to re-scheduling), LangGraph is the standard. 
 
-    Why it fits: It models agents as state machines. It can handle "cycles," allowing an agent to loop back and fix data (like our XML's order distressed food flags) until it passes
+    **Why it fits**: It models agents as state machines. It can handle "cycles," allowing an agent to loop back and fix data (like our XML's order distressed food flags) until it passes
     validation.
 
     **Integration**: It provides precise control through graph-based workflows, making it ideal for complex backend tasks.
