@@ -144,13 +144,13 @@ The XML order data shared is a perfect "trigger" for several specialized AI agen
 
    **Capability**    --->   **Traditional (What you have)**  --->   **Agentic AI** 
    
-  Response           --->    Reactive: Sends XML to queue.   --->  Proactive: Corrects errors before queuing.
+  Response           --->    Reactive: Sends XML order message.   --->  Proactive: Corrects errors before queuing.
  
-  Visibility	Static: Human checks a dashboard.	Autonomous: Agents alert you only when a goal is at risk.
+  Visibility	       --->    Static: Human checks a dashboard.	  --->  Autonomous: Agents alert you only when a goal is at risk.
 
-  Efficiency	Manual scheduling.	Self-healing: Automatically re-assigns drivers or stock.
+  Efficiency         --->	   Manual scheduling.	                  --->  Self-healing: Automatically re-assigns drivers or stock.
   
-  Scalability	Needs more staff as orders grow.	Software-driven: Agents handle volume spikes effortlessly.
+  Scalability	       --->    Needs more staff as orders grow.	    --->  Software-driven: Agents handle volume spikes effortlessly.
 
 --- 
 
