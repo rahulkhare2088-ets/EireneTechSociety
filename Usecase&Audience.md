@@ -165,31 +165,42 @@ The landscape for open-source AI agents has matured toward agentic frameworks th
  
 
 *   CrewAI: Best for "Team-Based" Logistics
+
     CrewAI is highly recommended for supply chain use cases because it mirrors human organizational structures. 
 
     Why it fits: You can define a "Crew" where one agent is a "Logistics Auditor" (to catch the delivery date error in your XML) and another is a "Warehouse Manager".
+
     Integration: It is "lean" and works well with asynchronous flows, making it easy to plug into our existing system.
+
     Pros: Lower learning curve; excellent for structured, process-driven workflows like order fulfillment. 
 
 *   LangGraph (LangChain Ecosystem): Best for "Self-Healing" Workflows
+
     If your fulfillment process is not a straight line (e.g., if a pickup fails, it must loop back to re-scheduling), LangGraph is the standard. 
 
     Why it fits: It models agents as state machines. It can handle "cycles," allowing an agent to loop back and fix data (like our XML's distressed food flags) until it passes
     validation.
+
     Integration: It provides precise control through graph-based workflows, making it ideal for complex backend tasks.
+
     Pros: Built-in persistence (memory) so it remembers the order state even if the server restarts. 
 
 *   Microsoft AutoGen: Best for "Conversational" Solving
+
     AutoGen focuses on letting agents "talk" to each other to solve a problem. 
 
     Why it fits: If your platform needs to negotiate between a Supplier and a Carrier, AutoGen agents can "debate" the best price or route until they reach a consensus.
+
     Integration: Backed by Microsoft, it has a strong event-driven architecture that scales well for enterprise use.
+
     Pros: Excellent for research-heavy and exploratory scenarios where the solution isn't immediate.
 
 *   Semantic Kernel (Microsoft): Best for "Enterprise" Polyglot Systems
-    Our BaaS is built on Java, Semantic Kernel is a lightweight SDK designed to live inside your existing code. 
 
-    Why it fits: It is designed to modernize legacy systems. It can take your current fulfillment functions and turn them into "Plugins" that an AI agent can call autonomously.
+    Our BaaS is built on Java, Semantic Kernel is a lightweight SDK designed to live inside our existing code. 
+
+    Why it fits: It is designed to modernize legacy systems. It can take our current fulfillment functions and turn them into "Plugins" that an AI agent can call autonomously.
+
     Pros: Enterprise-grade security and observability are baked in from the start.  
 
 --- 
