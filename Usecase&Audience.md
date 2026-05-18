@@ -2,7 +2,7 @@
 
 Our target audience is segmented into three primary tiers based on the "Privilege" levels mentioned in the documentation:
 
-**Target Audience:**
+**Target Audience**
 --- 
 
 ## Business Entities (The Clients) 
