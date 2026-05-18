@@ -98,6 +98,7 @@ The XML order data shared is a perfect "trigger" for several specialized AI agen
  
 
 *   **The SLA "Watchdog" Agent:**
+  
     Action: This agent monitors the queue and immediately identifies the logic error in XML (DeliveryEndDttm occurs before DeliveryStartDttm).
     
     Value: Instead of the order failing at the warehouse or being rejected by a driver's handheld device, the agent can autonomously flag the discrepancy and either:
