@@ -205,4 +205,16 @@ The landscape for open-source AI agents has matured toward agentic frameworks th
 
 --- 
 
-*Developed and maintained by Eirene Tech Society. Driven by open-access technology.* 
+## Comparison for Your Use Case
+
+   **Feature**    --->   **CrewAI**  --->   **LangGraph**  --->   **AutoGen**
+   
+  Primary Strength           --->    Role-based "Team" logic   --->  Complex, cyclic workflows   --->  Agent-to-agent negotiation
+ 
+  Learning Curve	       --->    Low (Very easy)	  --->  Mid-to-High (Technical)  ---> Mid-level
+
+  Best Integration Point         --->	   Our XML order message   --->  State-based backend logic  --->  Internal chat/review systems
+  
+  Scalability	       --->    Needs more staff as orders grow.	    --->  Software-driven: Agents handle volume spikes effortlessly.
+
+--- 
