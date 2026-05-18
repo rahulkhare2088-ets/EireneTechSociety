@@ -105,8 +105,10 @@ The XML order data shared is a perfect "trigger" for several specialized AI agen
     Correct it based on the typical "next-day" delivery pattern for that route. Prompt the "Privileged User" in our BaaS platform to fix the window before it hits the
     physical fulfillment floor. 
 
-*   **Distressed Food Recovery Agent:** 
+*   **Distressed Food Recovery Agent:**
+  
     Action: Since our message specifically identifies DISTRESSED_FOOD, a specialized agent can cross-reference the Reference_ID with real-time expiration data.
+
     Value: If the agent detects that the food has less than 48 hours of shelf life, it can automatically re-prioritize this order in the warehouse picking queue or
     upgrade the shipping speed to ensure it doesn't become waste. 
 
