@@ -142,9 +142,9 @@ The XML order data shared is a perfect "trigger" for several specialized AI agen
 
 ## Summary of Benefits for our BaaS (Backend as a Service) Platform
 
-   **Capability.**                                             **Traditional (What you have)**                                  **Agentic AI** 
+   **Capability**                                             **Traditional (What you have)**                                  **Agentic AI** 
    
-   Response	Reactive: Sends XML to queue.	Proactive: Corrects errors before queuing.
+   Response	                                               Reactive: Sends XML to queue.	                            Proactive: Corrects errors before queuing.
  
   Visibility	Static: Human checks a dashboard.	Autonomous: Agents alert you only when a goal is at risk.
 
