@@ -205,7 +205,7 @@ The landscape for open-source AI agents has matured toward agentic frameworks th
 
 --- 
 
-## Comparison for Your Use Case
+## Comparison for your Use Case
 
    **Feature**    --->   **CrewAI**  --->   **LangGraph**  --->   **AutoGen**
    
@@ -214,7 +214,5 @@ The landscape for open-source AI agents has matured toward agentic frameworks th
   Learning Curve	       --->    Low (Very easy)	  --->  Mid-to-High (Technical)  ---> Mid-level
 
   Best Integration Point         --->	   Our XML order message   --->  State-based backend logic  --->  Internal chat/review systems
-  
-  Scalability	       --->    Needs more staff as orders grow.	    --->  Software-driven: Agents handle volume spikes effortlessly.
 
 --- 
