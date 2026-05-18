@@ -127,13 +127,14 @@ The XML order data shared is a perfect "trigger" for several specialized AI agen
     stock actually runs out, shifting your platform from "fulfilling" to "predicting".
 
 *   **Multi-Agent Collaboration ("Digital Assembly Line"):**
+*   
     You can connect our platform's API to a system of collaborating agents:
 
     Logistics Agent: Handles the truck and route optimization.
 
     Procurement Agent: Automatically orders more shipping CTNs (cartons) because it sees the Size value is high in the current orders.
     
-    Customer Service Agent:Proactively messages the store manager at 01103 if the truck is running more than 15 minutes late, using the data directly from the XML order message. 
+    Customer Service Agent: Proactively messages the store manager at 01103 if the truck is running more than 15 minutes late, using the data directly from the XML order message. 
 
 --- 
 
