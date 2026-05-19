@@ -61,7 +61,7 @@ Order fulfillment processor engine which is a BaaS (Backend-as-a-Service) platfo
 
 Our BaaS (Backend-as-a-Service) order fulfillment engine is exactly what the "survival and growth" of the Indian retail sector now depends on. While e-commerce giants have their own closed-loop tech, the millions of independent shops (Kiranas) and local distributors lack the infrastructure to collaborate at that same level of speed and efficiency.
 
-Our platform bridges this "Digital Divide" in several high-impact ways: 
+Our platform bridges this "Digital Divide" in several high-impact ways
 
 ### Enabling the "Ten-Minute" Response
 
@@ -145,7 +145,7 @@ To onboard them successfully, Developer strategy should focus on making the tran
 
     Small distributors often operate in a cash-heavy environment with limited access to formal bank loans.
 
-    **The Strategy**: Use the data from your fulfillment engine to help them get credit.
+    **The Strategy**: Use the data from our fulfillment engine to help them get credit.
 
     **Action**: Partner with fintech firms to offer Invoice Discounting or working capital based on the "verified order flow" happening on your mobile app.
 
