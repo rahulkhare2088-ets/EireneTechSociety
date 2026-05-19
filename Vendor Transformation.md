@@ -214,6 +214,8 @@ Multi-Node  ---> DC Logic	Complex "which warehouse ships this?" logic is handled
 
 BaaS Subscription --->	Developers can "Pay-as-they-Grow," making it low-risk for them to start new retail startups. 
 
-Public Registry APIs --->	Instant access to a directory of sellers/buyers for their users to interact with. 
+Public Registry APIs --->	Instant access to a directory of sellers/buyers for their users to interact with.
+
+We manage the heavy lifting (Cloud, Scalability, API Security). Developers build 100 different specialized apps for 100 different Indian retail niches. Local Vendors get tools that actually fit their specific needs. Our Platform scales as the cumulative volume of all those apps grows.
 
 --- 
