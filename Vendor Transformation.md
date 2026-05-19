@@ -96,7 +96,7 @@ Most existing Indian B2B portals (like IndiaMart) are purely for "lead generatio
  
   SCaaS (Supply Chain as a Service)   --->   Emerging D2C Brands	  --->  Providing the backend for small brands that want to sell to thousands of local shops. 
 
-  Fintech Integration      --->	   ONBFCs and Banks   --->  Using our fulfillment data to provide Invoice Discounting or credit to small vendors. 
+  Fintech Integration      --->	   NBFCs and Banks   --->  Using our fulfillment data to provide Invoice Discounting or credit to small vendors. 
 
 In short: We aren't just building "software"; you are building the "operating system" that allows the legacy retail world to fight back against e-commerce giants using their own localized strength. 
 --- 
