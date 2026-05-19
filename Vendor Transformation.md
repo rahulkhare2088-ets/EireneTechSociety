@@ -26,12 +26,14 @@ Despite these challenges, local vendors still control roughly 90% of the Indian 
 *   **Trust and Tangibility:** Customers still value the ability to touch, feel, and try products before buying, which remains a primary reason they still visit physical markets.
 --- 
 
-## Implementation Use Cases 
+## The "Hybrid" Evolution
+The idea that they are "still growing" is true for those who have adapted. Local vendors are increasingly becoming "tech-savvy" to survive
 
-*   **Omnichannel Retail:** Bridging the gap between an online order and a physical store/DC.
+*   **Digital Adoption:** Many shops have integrated UPI payments and use WhatsApp for taking orders, effectively running their own hyperlocal delivery systems.
 
-*   **Food & Beverage Supply Chain:** Given the StoreSpFood naming, our primary niche appears to be perishable goods or specialty food distribution where rapid 
-    fulfillment is critical.
+*   **Strategic Partnerships:** Local stores are collaborating with large platforms. For example, some list their inventory on Amazon or ONDC (Open Network for Digital Commerce) to reach a wider audience.
+
+*  **Omnichannel Models:** Traditional retailers are transforming into "experience centers" or "click-and-collect" hubs, blending the online and offline worlds.
 --- 
  
 
