@@ -163,13 +163,13 @@ The real transformation in engineering and manufacturing often comes from augmen
 
 --- 
 
-## Developer Partners
+## Developer Partner Opportunity
 
 Our platform is api based platform for other end developers or eco system of developers, who can develop (integrate) AI Agent or UI or Mobile App with our platform using oauth based client authentication to deliver end service what we discussed, in a sense all this use case are for partner developers to implement. Our platform is more a umbrella set or say a broader generic engine which have many use cases developed by partner. While we manage platform backend end engine and its cloud infrastructure. 
 
 We are essentially building the Stripe or AWS of Hyperlocal Commerce. 
 
-Our biggest strength we aren't selling to a shopkeeper, you are selling to the SaaS startups and IT Agencies who are trying to build tools for those shopkeepers. 
+Our biggest strength we aren't selling to a shopkeeper, we are selling to the SaaS startups and IT Agencies who are trying to build tools for those shopkeepers. 
 
 Here is how your BaaS (Backend-as-a-Service) engine fits into the Indian retail evolution and the specific opportunities for our developer partners
 
@@ -177,7 +177,7 @@ Here is how your BaaS (Backend-as-a-Service) engine fits into the Indian retail 
 
     Building a fulfillment engine from scratch is incredibly hard (managing race conditions in inventory, multi-node distribution logic, and OAuth security).
 
-    **The Opportunity:**: Developers can use our APIs to build "Niche SaaS." One partner could build an app specifically for Pharma Distributors, another for FMCG Wholesalers, and
+    **The Opportunity**: Developers can use our APIs to build "Niche SaaS." One partner could build an app specifically for Pharma Distributors, another for FMCG Wholesalers, and
     another for Electronic Spare Parts.
 
     **Our Value**: We provide the "Plumbing" (Orders, Inventory, Distribution Center logic) so developers can focus on the "Interior Design" (the UI/UX, AI Agent, Mobile App for the
