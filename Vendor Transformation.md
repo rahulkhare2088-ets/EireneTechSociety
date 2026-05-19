@@ -88,6 +88,19 @@ Most existing Indian B2B portals (like IndiaMart) are purely for "lead generatio
 
 **The Opportunity**: Because our platform allows for public listing and direct collaboration, you move the needle from **"I found a seller"** to **"I have placed a verified order, checked their live stock, and tracked my delivery"**.
 
+## Summary of Potential Business Models
+
+   **Model**    --->   **Potential Partners**  --->   **Our Platform's Role** 
+   
+  Cluster-based Logistics    --->    Local Merchant Associations   ---> Managing shared distribution centers for a specific market or area. 
+ 
+  SCaaS (Supply Chain as a Service)   --->   Emerging D2C Brands	  --->  Providing the backend for small brands that want to sell to thousands of local shops. 
+
+  Fintech Integration      --->	   ONBFCs and Banks   --->  Using our fulfillment data to provide Invoice Discounting or credit to small vendors. 
+
+In short: We aren't just building "software"; you are building the "operating system" that allows the legacy retail world to fight back against e-commerce giants using their own localized strength. 
+--- 
+
 ### Summary for Consumer
 If you are the "Consumer" of this XML order message, this data is telling you:
 
@@ -191,17 +204,5 @@ The landscape for open-source AI agents has matured toward agentic frameworks th
     **Why it fits**: It is designed to modernize legacy systems. It can take our current fulfillment functions and turn them into "Plugins" that an AI agent can call autonomously.
 
     **Pros**: Enterprise-grade security and observability are baked in from the start.  
-
---- 
-
-## Comparison for your Use Case
-
-   **Feature**    --->   **CrewAI**  --->   **LangGraph**  --->   **AutoGen**
-   
-  Primary Strength           --->    Role-based "Team" logic   --->  Complex, cyclic workflows   --->  Agent-to-agent negotiation
- 
-  Learning Curve	       --->    Low (Very easy)	  --->  Mid-to-High (Technical)  ---> Mid-level
-
-  Best Integration Point         --->	   Our XML order message   --->  State-based backend logic  --->  Internal chat/review systems
 
 --- 
