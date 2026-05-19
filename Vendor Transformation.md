@@ -106,25 +106,22 @@ Transitioning traditional distributors who might be hesitant to move away from t
 
 To onboard them successfully, Developer strategy should focus on making the transition feel like a natural upgrade rather than a radical change.
 
-## The "Mobile-First" Bridge
-With our fulfillment platform means moving from reactive automation (just sending messages) to proactive orchestration (agents making decisions).
-The XML order data shared is a perfect "trigger" for several specialized AI agents. Here is how you can leverage them:
- 
-
-*   **The SLA "Watchdog" Agent:**
+*   **The "Mobile-First" Bridge:**
   
-    **Action**: This agent monitors the queue and immediately identifies the logic error in XML (DeliveryEndDttm occurs before DeliveryStartDttm).
+    Most traditional distributors in India are already comfortable with smartphones via WhatsApp. 
+  
+    **The Strategy**: Ensure our platform is accessible via a lightweight mobile app rather than just a desktop portal. 
     
-    **Value**: Instead of the order failing at the warehouse or being rejected by a driver's handheld device, the agent can autonomously flag the discrepancy and either:
-    Correct it based on the typical "next-day" delivery pattern for that route. Prompt the "Privileged User" in our BaaS platform to fix the window before it hits the
-    physical fulfillment floor. 
+    **Action**:  If they can place an order or check stock as easily as they send a WhatsApp message, the learning curve disappears. 
 
-*   **"Distressed Food" Recovery Agent:**
+*   **Focus on "Micro-Onboarding:**
   
-    **Action**: Since our message specifically identifies DISTRESSED_FOOD, a specialized agent can cross-reference the Reference_ID with real-time expiration data.
-
-    **Value**: If the agent detects that the food has less than 48 hours of shelf life, it can automatically re-prioritize this order in the warehouse picking queue or
-    upgrade the shipping speed to ensure it doesn't become waste. 
+    Don't ask them to digitise their entire 1,000-item inventory on day one. 
+  
+    **The Strategy**: Start with a "pilot" of their top 10 best-selling items.
+    
+    **Action**: Once they see that these 10 items are being ordered and fulfilled flawlessly without a single phone call, they will naturally want to add the rest. New Era Technology
+    highlights that using a "keep-it-simple" approach with a pilot group is crucial for tailoring a platform before scaling. 
 
 *   **Dynamic Routing & Rerouting Agent:** 
 
