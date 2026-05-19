@@ -86,7 +86,7 @@ The Indian government’s ONDC (Open Network for Digital Commerce) is designed t
 
 Most existing Indian B2B portals (like IndiaMart) are purely for "lead generation" (finding a phone number). There is a massive gap for Execution Platforms where the business actually happens.
 
-**The Opportunity**: Because your platform allows for public listing and direct collaboration, you move the needle from **"I found a seller"** to **"I have placed a verified order**, checked their live stock, and tracked my delivery.
+**The Opportunity**: Because our platform allows for public listing and direct collaboration, you move the needle from **"I found a seller"** to **"I have placed a verified order, checked their live stock, and tracked my delivery"**.
 
 ### Summary for Consumer
 If you are the "Consumer" of this XML order message, this data is telling you:
