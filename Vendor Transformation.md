@@ -77,7 +77,6 @@ The Indian B2B market is valued at $2 trillion, yet digital adoption remains as 
  
 
 ### Participation in the ONDC Revolution
-The order contains three distinct line items, each with specific physical characteristics:
 
 The Indian government’s ONDC (Open Network for Digital Commerce) is designed to unbundle e-commerce, allowing any seller to be discovered by any buyer across different apps. 
 
