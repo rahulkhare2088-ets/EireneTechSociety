@@ -101,8 +101,10 @@ Most existing Indian B2B portals (like IndiaMart) are purely for "lead generatio
 In short: We aren't just building "software"; you are building the "operating system" that allows the legacy retail world to fight back against e-commerce giants using their own localized strength. 
 --- 
 
-### Vendor BaaS Onboarding Journey 
+## Vendor BaaS Onboarding Journey 
 Transitioning traditional distributors who might be hesitant to move away from their manual "pen and paper" systems to our digital fulfillment engine is less about the technology and more about trust and perceived effort. In India, many small-scale distributors fear that digitisation will be too complex, expensive, or expose their "khata" (informal credit) secrets to others. 
+
+To onboard them successfully, Developer strategy should focus on making the transition feel like a natural upgrade rather than a radical change.
 
 --- 
 
