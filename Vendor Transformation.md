@@ -204,4 +204,16 @@ Here is how your BaaS (Backend-as-a-Service) engine fits into the Indian retail 
     **The Opportunity**: Our partners can build ONDC-compliant apps in weeks instead of months by using our BaaS as their backend. You become the Infrastructure Provider for the ONDC
     ecosystem.
 
+## Summary Developer Partners Benefit
+
+**Feature** --->	**Developer Benefit** 
+
+OAuth Auth  --->	Enterprise-grade security out of the box, no need to build custom login/permission logic. 
+
+Multi-Node  ---> DC Logic	Complex "which warehouse ships this?" logic is handled by our API. 
+
+BaaS Subscription --->	Developers can "Pay-as-they-Grow," making it low-risk for them to start new retail startups. 
+
+Public Registry APIs --->	Instant access to a directory of sellers/buyers for their users to interact with. 
+
 --- 
