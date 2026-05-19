@@ -171,7 +171,7 @@ We are essentially building the Stripe or AWS of Hyperlocal Commerce.
 
 Our biggest strength we aren't selling to a shopkeeper, we are selling to the SaaS startups and IT Agencies who are trying to build tools for those shopkeepers. 
 
-Here is how your BaaS (Backend-as-a-Service) engine fits into the Indian retail evolution and the specific opportunities for our developer partners
+Here is how our BaaS (Backend-as-a-Service) engine fits into the Indian retail evolution and the specific opportunities for our developer partners
 
 *   **Position as the "Retail OS" for Developers**
 
@@ -185,7 +185,7 @@ Here is how your BaaS (Backend-as-a-Service) engine fits into the Indian retail 
 
 *   **Enabling "Headless" Commerce for B2B**
 
-    Most B2B platforms in India are "monolithic" (rigid and hard to customize). Your API-first approach allows for Headless B2B Commerce.
+    Most B2B platforms in India are "monolithic" (rigid and hard to customize). Our API-first approach allows for Headless B2B Commerce.
 
     **The Opportunity**: A developer can build a custom WhatsApp Bot that uses our API to check inventory and place orders. The shopkeeper never sees our platform; they only interact
      with the bot, while your engine handles the complex fulfillment logic in the background.
