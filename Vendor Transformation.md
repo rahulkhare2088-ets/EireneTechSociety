@@ -101,11 +101,9 @@ Most existing Indian B2B portals (like IndiaMart) are purely for "lead generatio
 In short: We aren't just building "software"; you are building the "operating system" that allows the legacy retail world to fight back against e-commerce giants using their own localized strength. 
 --- 
 
-### Summary for Consumer
-If you are the "Consumer" of this XML order message, this data is telling you:
+### Vendor BaaS Onboarding Journey 
+Transitioning traditional distributors who might be hesitant to move away from their manual "pen and paper" systems to our digital fulfillment engine is less about the technology and more about trust and perceived effort. In India, many small-scale distributors fear that digitisation will be too complex, expensive, or expose their "khata" (informal credit) secrets to others. 
 
-   "Hey, Company ETS has a new order (TC11223). You need to pick up 3 large units of distressed food and special project items from Facility (7954) on Thursday 
-    afternoon and get them to Facility 01103. The order is released for picking, but you still need to assign a driver/truck."
 --- 
 
  
