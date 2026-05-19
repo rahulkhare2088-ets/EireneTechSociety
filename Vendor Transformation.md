@@ -1,6 +1,6 @@
 # Vendor Transformation
 
-How much the emerge of malls and e commerce and corporate retail has affected local legacy vendor or shop keepers in neighborhood over years, but seems they still survived and growing despite challenge is true in india.
+The emerge of malls and e commerce and corporate retail has affected local legacy vendor or shop keepers in neighborhood over years, but seems they still survived and growing despite challenge is true in india.
 
 But the rise of malls, e-commerce, and corporate retail has undeniably disrupted India's local retail landscape, but it hasn't resulted in the wholesale "death" of the neighborhood vendor. Instead, it has triggered a complex transformation where some sectors struggle while others evolve and grow by leveraging their unique local advantages. 
 
