@@ -106,7 +106,7 @@ Transitioning traditional distributors who might be hesitant to move away from t
 
 To onboard them successfully, Developer strategy should focus on making the transition feel like a natural upgrade rather than a radical change.
 
-*   **The "Mobile-First" Bridge:**
+*   **The "Mobile-First" Bridge**
   
     Most traditional distributors in India are already comfortable with smartphones via WhatsApp. 
   
@@ -114,7 +114,7 @@ To onboard them successfully, Developer strategy should focus on making the tran
     
     **Action**:  If they can place an order or check stock as easily as they send a WhatsApp message, the learning curve disappears. 
 
-*   **Focus on "Micro-Onboarding:**
+*   **Focus on "Micro-Onboarding**
   
     Don't ask them to digitise their entire 1,000-item inventory on day one. 
   
@@ -123,12 +123,14 @@ To onboard them successfully, Developer strategy should focus on making the tran
     **Action**: Once they see that these 10 items are being ordered and fulfilled flawlessly without a single phone call, they will naturally want to add the rest. New Era Technology
     highlights that using a "keep-it-simple" approach with a pilot group is crucial for tailoring a platform before scaling. 
 
-*   **Dynamic Routing & Rerouting Agent:** 
+*   **Incentivise with Tangible ROI**
 
-    **Action**: "Agentic AI" doesn't just plan a route once; it continuously recalculates based on live environmental signals.
+    Traditional vendors are wary of "software for the sake of software." They need to see how it makes them money or saves them time. 
 
-    **Value**: If a weather event or traffic jam occurs between the Origin (7954) and Destination (01103), the agent can autonomously reroute the delivery truck or
-    re-sequence the drop-offs to hit the specified 14:00 pickup window without human dispatcher intervention. 
+    **The Strategy**: Show them that digital inventory reduces "dead stock" (items that don't sell) and "stockouts" (lost sales).
+
+    **Action**: Use data to provide them with Demand Forecasting. Tell them, "Based on our engine, shops in their area will need 20% more of Product X next week." This moves you
+    from being a "software vendor" to a "business partner."
 
 *   **Smart Inventory Rebalancing Agent:**
 
