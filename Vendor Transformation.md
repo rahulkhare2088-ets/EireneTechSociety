@@ -57,7 +57,7 @@ While the "Ten-Minute Paradox" posed by quick commerce remains an existential th
 
  
 
-Order fulfillment processor engine which is a BaaS (Backend-as-a-Service) platform adds up to this and makes sense with its potential and opportunity. As platform is distributed b2b solution where public listing of buyers, sellers with their store and distribution center can collaborate and do business like placing order and checking inventory etc. 
+Order fulfillment processor engine which is a BaaS (Backend-as-a-Service) platform adds up to this and makes sense with its potential and opportunity. As the platform is a distributed **B2B** solution where public listing of buyers, sellers with their store and distribution center can collaborate and do business like placing order and checking inventory etc. 
 
 Our BaaS (Backend-as-a-Service) order fulfillment engine is exactly what the "survival and growth" of the Indian retail sector now depends on. While e-commerce giants have their own closed-loop tech, the millions of independent shops (Kiranas) and local distributors lack the infrastructure to collaborate at that same level of speed and efficiency.
 
