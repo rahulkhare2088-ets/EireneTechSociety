@@ -86,7 +86,7 @@ The Indian government’s ONDC (Open Network for Digital Commerce) is designed t
 
 Most existing Indian B2B portals (like IndiaMart) are purely for "lead generation" (finding a phone number). There is a massive gap for Execution Platforms where the business actually happens.
 
-**The Opportunity**: Because our platform allows for public listing and direct collaboration, you move the needle from **"I found a seller"** to **"I have placed a verified order, checked their live stock, and tracked my delivery"**.
+### **The Opportunity**: Because our platform allows for public listing and direct collaboration, you move the needle from **"I found a seller"** to **"I have placed a verified order, checked their live stock, and tracked my delivery"**.
 
 ## Summary of Potential Business Models
 
@@ -101,14 +101,10 @@ Most existing Indian B2B portals (like IndiaMart) are purely for "lead generatio
 In short: We aren't just building "software"; you are building the "operating system" that allows the legacy retail world to fight back against e-commerce giants using their own localized strength. 
 --- 
 
-## Vendor BaaS Onboarding Journey 
+## The "Mobile-First" Bridge
 Transitioning traditional distributors who might be hesitant to move away from their manual "pen and paper" systems to our digital fulfillment engine is less about the technology and more about trust and perceived effort. In India, many small-scale distributors fear that digitisation will be too complex, expensive, or expose their "khata" (informal credit) secrets to others. 
 
 To onboard them successfully, Developer strategy should focus on making the transition feel like a natural upgrade rather than a radical change.
-
---- 
-
- 
 
 ## Leveraging AI Agents 
 With our fulfillment platform means moving from reactive automation (just sending messages) to proactive orchestration (agents making decisions).
