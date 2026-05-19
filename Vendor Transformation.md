@@ -98,7 +98,7 @@ Most existing Indian B2B portals (like IndiaMart) are purely for "lead generatio
 
   Fintech Integration      --->	   NBFCs and Banks   --->  Using our fulfillment data to provide Invoice Discounting or credit to small vendors. 
 
-## In short: We aren't just building "software"; you are building the "operating system" that allows the legacy retail world to fight back against e-commerce giants using their own localized strength. 
+In short: We aren't just building "software"; you are building the "operating system" that allows the legacy retail world to fight back against e-commerce giants using their own localized strength. 
 --- 
 
 ## Vendor BaaS Onboarding Journey
