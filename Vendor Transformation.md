@@ -1,8 +1,8 @@
 # Vendor Transformation
 
-The emerge of malls and e commerce and corporate retail has affected local legacy vendor or shop keepers in neighborhood over years, but seems they still survived and growing despite challenge is true in india.
+The emergence of malls, e-commerce and corporate retail has affected local legacy vendor or shop keepers in neighborhood over years, but seems they still survived and growing despite challenge is true in india.
 
-But the rise of malls, e-commerce, and corporate retail has undeniably disrupted India's local retail landscape, but it hasn't resulted in the wholesale "death" of the neighborhood vendor. Instead, it has triggered a complex transformation where some sectors struggle while others evolve and grow by leveraging their unique local advantages. 
+But the rise of malls, e-commerce and corporate retail has undeniably disrupted India's local retail landscape, but it hasn't resulted in the wholesale "death" of the neighborhood vendor. Instead, it has triggered a complex transformation where some sectors struggle while others evolve and grow by leveraging their unique local advantages. 
 
 **The Analysis**
 --- 
@@ -98,7 +98,7 @@ Most existing Indian B2B portals (like IndiaMart) are purely for "lead generatio
 
   Fintech Integration      --->	   NBFCs and Banks   --->  Using our fulfillment data to provide Invoice Discounting or credit to small vendors. 
 
-In short: We aren't just building "software"; you are building the "operating system" that allows the legacy retail world to fight back against e-commerce giants using their own localized strength. 
+In short: We aren't just building "software"; we are building the "operating system" that allows the legacy retail world to fight back against e-commerce giants using their own localized strength. 
 --- 
 
 ## Vendor BaaS Onboarding Journey
