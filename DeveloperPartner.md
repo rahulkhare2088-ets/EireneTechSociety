@@ -129,7 +129,7 @@ To onboard them successfully, Developer strategy should focus on making the tran
 
     **The Strategy**: Show them that digital inventory reduces "dead stock" (items that don't sell) and "stockouts" (lost sales).
 
-    **Action**: Use data to provide them with Demand Forecasting. Tell them, "Based on our engine, shops in their area will need 20% more of Product X next week." This moves app
+    **Action**: Use data to provide them with Demand Forecasting. Tell them, "Based on order historic data in our engine, shops in their area will need 20% more of Product X next week." This moves app
     from being a "software vendor" to a "business partner."
 
 *   **Integration with Legacy Realities**
