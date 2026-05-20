@@ -12,43 +12,28 @@
         .gradient-bg { 
             background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); 
         }
-        /* Apply Flexbox to your header to handle alignment */
-        header, nav {
-          display: flex;
-          align-items: center;
-          justify-content: space-between; /* Pushes logo left, navigation right */
-          padding: 10px 20px;
-        }
-        
-        /* Style the logo container */
-        .header-logo-container {
-          margin-right: auto; /* Hard-forces the logo to stay on the far left */
-        }
-        
-        /* Style and restrict the PNG logo size */
         .header-logo {
-          height: 50px; /* Adjust height to fit your navbar design */
-          width: auto;  /* Maintains aspect ratio so your image doesn't stretch */
+          height: 40px;
+          width: auto;
           display: block;
         }
-
     </style> 
 </head> 
 <body class="bg-slate-50 text-slate-800 font-sans antialiased"> 
     <!-- Header Navigation --> 
     <header class="bg-slate-900 text-white sticky top-0 z-50 shadow-md"> 
         <div class="max-w-6xl mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center gap-4"> 
-            <div class="flex items-center space-x-3">  
+            <div class="flex items-center space-x-3 self-start sm:self-auto">  
                 <div> 
                     <div class="header-logo-container">
-                      <a href="https://rahulkhare2088-ets.github.io/eirenetechsociety/">
-                        <img src="https://github.com/rahulkhare2088-ets/EireneTechSociety/blob/main/ets_logo.png" alt="Eirene Tech Society Logo" class="header-logo">
+                      <a href="https://rahulkhare2088-ets.github.io/EireneTechSociety/">
+                        <img src="https://rahulkhare2088-ets.github.io/EireneTechSociety/ets_logo.png" alt="Eirene Tech Society Logo" class="header-logo">
                       </a>
                     </div>
-                    <span class="text-xs text-indigo-400 block font-mono">v1.0.0-Beta</span> 
+                    <span class="text-[10px] text-indigo-400 block font-mono mt-1">v1.0.0-Beta</span> 
                 </div> 
             </div> 
-            <nav class="flex items-center space-x-6 text-sm font-medium"> 
+            <nav class="flex flex-wrap items-center justify-center sm:justify-end gap-x-6 gap-y-2 text-sm font-medium"> 
                 <a href="https://github.com/rahulkhare2088-ets/EireneTechSociety/blob/main/AboutProject.md" target="_blank" class="hover:text-indigo-400 transition">About Project</a>
                 <a href="https://github.com/rahulkhare2088-ets/EireneTechSociety/blob/main/UsecaseAndAudience.md" target="_blank" class="hover:text-indigo-400 transition">Usecase And Audience</a>
                 <a href="#features" class="hover:text-indigo-400 transition">Features</a> 
