@@ -17,7 +17,7 @@ Traditional retailers have faced significant pressure, with the most severe impa
 --- 
 
 ## The Survival: Why They Are Growing
-Despite these challenges, local vendors still control roughly 90% of the Indian retail market as of 2024. Their resilience is built on several "legacy" strengths that large corporations struggle to replicate
+Despite these challenges, local vendors still control roughly **90%** of the Indian retail market as of 2024. Their resilience is built on several "legacy" strengths that large corporations struggle to replicate
 
 *   **Informal Credit:** Many neighborhood shops offer "khata" (informal credit) to regular customers, a personalized service that e-commerce does not provide. 
 
