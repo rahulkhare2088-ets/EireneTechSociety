@@ -11,7 +11,27 @@
     <style> 
         .gradient-bg { 
             background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); 
-        } 
+        }
+        /* Apply Flexbox to your header to handle alignment */
+        header, nav {
+          display: flex;
+          align-items: center;
+          justify-content: space-between; /* Pushes logo left, navigation right */
+          padding: 10px 20px;
+        }
+        
+        /* Style the logo container */
+        .header-logo-container {
+          margin-right: auto; /* Hard-forces the logo to stay on the far left */
+        }
+        
+        /* Style and restrict the PNG logo size */
+        .header-logo {
+          height: 50px; /* Adjust height to fit your navbar design */
+          width: auto;  /* Maintains aspect ratio so your image doesn't stretch */
+          display: block;
+        }
+
     </style> 
 </head> 
 <body class="bg-slate-50 text-slate-800 font-sans antialiased"> 
@@ -23,7 +43,11 @@
                     <i class="fa-solid fa-layer-group text-xl"></i> 
                 </div> 
                 <div> 
-                    <span class="font-bold text-lg block tracking-tight">Eirene Tech Society</span> 
+                    <div class="header-logo-container">
+                      <a href="https://rahulkhare2088-ets.github.io/eirenetechsociety/">
+                        <img src="images/logo.png" alt="Eirene Tech Society Logo" class="header-logo">
+                      </a>
+                    </div>
                     <span class="text-xs text-indigo-400 block font-mono">v1.0.0-Beta</span> 
                 </div> 
             </div> 
