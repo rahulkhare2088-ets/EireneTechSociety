@@ -77,33 +77,35 @@ To predict whether an item's sales will increase or decrease in the near future,
 
 By combining the OrderHeaderEntity with the underlying orderDetailsEntities, your applications and AI agents can transition from basic sales forecasting to highly advanced supply chain, shipping, and logistics prediction. 
 
+---
+
 ### 🚚 Core Header Fields for Advanced Predictive Models 
 
 While the order details tell you how much item inventory is moving, the header provides the physical constraints of time and geography. Developers can leverage these specific header fields
 
 
-Field Name ---> Supply Chain Predictive Use Case
+**Field Name** ---> **Supply Chain Predictive Use Case**
 
 
-shipWeekStartDate  ---> Macro-Seasonality: Best for high-level weekly velocity mapping, skipping daily sales noise. 
+shipWeekStartDate  ---> **Macro-Seasonality**: Best for high-level weekly velocity mapping, skipping daily sales noise. 
 
 
-originFacilityId ---> Sourcing Forecast: Predicts outbound volume strain on specific fulfillment centers. 
+originFacilityId ---> **Sourcing Forecast**: Predicts outbound volume strain on specific fulfillment centers. 
 
 
-destinationFacilityId ---> Geographic Demand: Forecasts regional item popularity and localized stockouts. 
+destinationFacilityId ---> **Geographic Demand**: Forecasts regional item popularity and localized stockouts. 
 
 
-deliveryStartDttm / EndDttm ---> Transit Analytics: Helps AI models calculate expected lead times and window bottlenecks. 
+deliveryStartDttm / EndDttm ---> **Transit Analytics**: Helps AI models calculate expected lead times and window bottlenecks. 
 
 
-scheduledDayOfWeek ---> Day-of-Week Seasonality: Predicts which days face the highest shipping and delivery spikes. 
+scheduledDayOfWeek ---> **Day-of-Week Seasonality**: Predicts which days face the highest shipping and delivery spikes. 
 
 
-orderFulfillmentStatus ---> Data Filtering: Ensures models filter out unfulfilled or pending entries for clean historical actuals. 
+orderFulfillmentStatus ---> **Data Filtering**: Ensures models filter out unfulfilled or pending entries for clean historical actuals. 
 
 
-cancelled ---> Anomaly Detection: Allows AI agents to subtract canceled orders so they don't skew real demand figures. 
+cancelled ---> **Anomaly Detection**: Allows AI agents to subtract canceled orders so they don't skew real demand figures. 
 
 
 ### Solving the "Fragmented Supply Chain" Problem
