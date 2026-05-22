@@ -18,9 +18,10 @@ To predict whether an item's sales will increase or decrease in the near future,
 ## ️ 🛠️ Step-by-step Integration Workflow
 
 *    **Step 1: Fetch Historical Order Data**
-     Your application or autonomous AI agent should periodically make standard GET requests to pull historical data for the target store or item. 
+  
+     Your application or autonomous AI agent should periodically make standard **GET** requests to pull historical data for the target store or item. 
 
-     http 
+     **http** 
 
      **GET** /apiv1/orders?pageSize=1000&sort=createdAt,asc 
 
