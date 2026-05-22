@@ -17,7 +17,7 @@ To predict whether an item's sales will increase or decrease in the near future,
 
 ## ️ 🛠️ Step-by-step Integration Workflow
 
-    **Step 1: Fetch Historical Order Data**
+*    **Step 1: Fetch Historical Order Data**
 
     Your application or autonomous AI agent should periodically make standard GET requests to pull historical data for the target store or item. 
 
@@ -25,7 +25,7 @@ To predict whether an item's sales will increase or decrease in the near future,
 
     **GET** /apiv1/orders?pageSize=1000&sort=createdAt,asc 
 
-    **Step 2: Aggregate Records (Data Preparation)**
+*    **Step 2: Aggregate Records (Data Preparation)**
 
     Raw order lines from the database are transactional and arrive at random timestamps. Before feeding this data to any statistical tool, you must aggregate the quantities into
     uniform chronological buckets (e.g., Daily Sales). 
@@ -36,7 +36,10 @@ To predict whether an item's sales will increase or decrease in the near future,
 
     // 1. Mock data array representing the OrderDetailsEntity payload from platform 
 
-    const etsOrderRecords = [{ createdAt: "2026-05-19T10:14:00Z", itemName: "Eco-Bottle 500ml", orderQuantity: 12 },{ createdAt: "2026-05-19T15:30:00Z", itemName: "Eco-Bottle 500ml",       orderQuantity: 8 },{ createdAt: "2026-05-20T09:05:00Z", itemName: "Eco-Bottle 500ml", orderQuantity: 15 }]; 
+    const etsOrderRecords = [
+    { createdAt: "2026-05-19T10:14:00Z", itemName: "Eco-Bottle 500ml", orderQuantity: 12 },
+    { createdAt: "2026-05-19T15:30:00Z", itemName: "Eco-Bottle 500ml",orderQuantity: 8 },
+    { createdAt: "2026-05-20T09:05:00Z", itemName: "Eco-Bottle 500ml", orderQuantity: 15 }]; 
  
     // 2. Reduce transactional lines into a clean timeline object 
 
