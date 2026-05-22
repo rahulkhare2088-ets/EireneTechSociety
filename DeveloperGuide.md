@@ -2,7 +2,7 @@
 
 As a developer partner on the our platform, you can easily implement inventory demand forecasting, AI-driven stock prediction, and trend analysis within your own AI agents, web dashboards, or mobile applications. 
 
-Because we focuses purely on high-performance data persistence and standard CRUD operations, you have full control over your forecasting stack. The core database schemas expose everything your application needs to calculate future sales spikes, drops, or seasonal velocity. 
+Because we focuses purely on high-performance data persistence and standard CRUD operations, **you have full control over your forecasting stack**. The core database schemas expose everything your application needs to calculate future sales spikes, drops, or seasonal velocity. 
 
 ## 🧭 Core Fields for Time-Series Analysis 
 
