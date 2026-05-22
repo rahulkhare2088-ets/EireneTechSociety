@@ -33,7 +33,7 @@ To predict whether an item's sales will increase or decrease in the near future,
 
      javascript 
 
-     // 1. Mock data array representing the OrderDetailsEntity payload from platform 
+    // 1. Mock data array representing the OrderDetailsEntity payload from platform 
 
     const etsOrderRecords = [
     { createdAt: "2026-05-19T10:14:00Z", itemName: "Eco-Bottle 500ml", orderQuantity: 12 },
