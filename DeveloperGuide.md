@@ -71,27 +71,40 @@ To predict whether an item's sales will increase or decrease in the near future,
 
 *   **Logistics & Spatial Planning**: Multiply your calculated future item quantities by the cube (volume) and weight attributes. This enables your application to forecast exactly how
     much physical warehouse shelf space or shipping truck cargo capacity the store will require in the coming weeks. 
-
-
-While the "Ten-Minute Paradox" posed by quick commerce remains an existential threat to some, the future for many Indian neighborhood vendors lies in a symbiotic relationship between the physical and virtual worlds.
 --- 
- 
 
-## Order Fulfillment Processor Engine Positioning 
+## 📈 Developer Guide Addendum: Advanced Supply Chain Forecasting 
 
- 
+By combining the OrderHeaderEntity with the underlying orderDetailsEntities, your applications and AI agents can transition from basic sales forecasting to highly advanced supply chain, shipping, and logistics prediction. 
 
-Order fulfillment processor engine which is a BaaS (Backend-as-a-Service) platform adds up to this and makes sense with its potential and opportunity. As the platform is a distributed **B2B** solution where public listing of buyers, sellers with their store and distribution center can collaborate and do business like placing order and checking inventory etc. 
+### 🚚 Core Header Fields for Advanced Predictive Models 
 
-Our BaaS (Backend-as-a-Service) order fulfillment engine is exactly what the "survival and growth" of the Indian retail sector now depends on. While e-commerce giants have their own closed-loop tech, the millions of independent shops (Kiranas) and local distributors lack the infrastructure to collaborate at that same level of speed and efficiency.
+While the order details tell you how much item inventory is moving, the header provides the physical constraints of time and geography. Developers can leverage these specific header fields
 
-Our platform bridges this "Digital Divide" in several high-impact ways
 
-### Enabling the "Ten-Minute" Response
+Field Name ---> Supply Chain Predictive Use Case
 
-The biggest threat to local vendors is Quick Commerce (like Blinkit or Zepto). These apps use "dark stores," but our platform can turn a network of existing neighborhood shops into a distributed fulfillment network. 
 
-**The Opportunity**: By using our engine, a group of local sellers can function like a single large entity, sharing inventory visibility to ensure that if Shop **A** is out of stock, Shop **B** (500 meters away) can fulfill the order immediately. 
+shipWeekStartDate  ---> Macro-Seasonality: Best for high-level weekly velocity mapping, skipping daily sales noise. 
+
+
+originFacilityId ---> Sourcing Forecast: Predicts outbound volume strain on specific fulfillment centers. 
+
+
+destinationFacilityId ---> Geographic Demand: Forecasts regional item popularity and localized stockouts. 
+
+
+deliveryStartDttm / EndDttm ---> Transit Analytics: Helps AI models calculate expected lead times and window bottlenecks. 
+
+
+scheduledDayOfWeek ---> Day-of-Week Seasonality: Predicts which days face the highest shipping and delivery spikes. 
+
+
+orderFulfillmentStatus ---> Data Filtering: Ensures models filter out unfulfilled or pending entries for clean historical actuals. 
+
+
+cancelled ---> Anomaly Detection: Allows AI agents to subtract canceled orders so they don't skew real demand figures. 
+
 
 ### Solving the "Fragmented Supply Chain" Problem
 
