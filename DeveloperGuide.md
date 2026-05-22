@@ -30,9 +30,9 @@ To predict whether an item's sales will increase or decrease in the near future,
      Raw order lines from the database are transactional and arrive at random timestamps. Before feeding this data to any statistical tool, you must aggregate the quantities into
      uniform chronological buckets (e.g., Daily Sales). 
 
-     Here is a quick Node.js / JavaScript snippet to clean and structure the payload received from the our platform
+     Here is a quick **Node.js** / **JavaScript** snippet to clean and structure the payload received from the our platform
 
-     javascript 
+     **javascript** 
 
     // 1. Mock data array representing the OrderDetailsEntity payload from platform 
 
