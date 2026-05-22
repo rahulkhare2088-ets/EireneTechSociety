@@ -23,7 +23,7 @@ To predict whether an item's sales will increase or decrease in the near future,
 
      **http** 
 
-     **GET** /apiv1/orders?pageSize=1000&sort=createdAt,asc 
+     **GET** /op/apiv1/order-details/paginated?pageSize=1000&sort=createdAt,asc 
 
 *    **Step 2: Aggregate Records (Data Preparation)**
 
