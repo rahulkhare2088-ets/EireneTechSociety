@@ -107,12 +107,17 @@ orderFulfillmentStatus ---> **Data Filtering**: Ensures models filter out unfulf
 
 cancelled ---> **Anomaly Detection**: Allows AI agents to subtract canceled orders so they don't skew real demand figures. 
 
+---
 
-### Solving the "Fragmented Supply Chain" Problem
+### 🛠️ Step-by-Step Integration Workflow (Parent-Child Schema) 
 
-The Indian B2B market is valued at $2 trillion, yet digital adoption remains as low as ~1%. Most local shopkeepers still order stock via phone calls or manual visits to wholesalers.
+**Step 1: Extract and Filter Valid Order History**
 
-**The Opportunity**: Our distributed B2B format allows for Real-Time Inventory Visibility across tiers. Retailers can see exactly what a distributor has in stock before placing an order, reducing "stockouts" and the need for high buffer inventory.
+When developer partners query our order header endpoint, they should filter out canceled orders to keep their forecasting data clean and accurate
+
+**http** 
+
+**GET** /op/apiv1/order-header/paginated?cancelled=false&sort=shipWeekStartDate,asc 
  
 
 ### Participation in the ONDC Revolution
