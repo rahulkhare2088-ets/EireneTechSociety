@@ -23,7 +23,7 @@ To predict whether an item's sales will increase or decrease in the near future,
 
      **http** 
 
-     **GET** /op/apiv1/order-details/paginated?pageSize=1000&sort=createdAt,asc 
+     **GET** op/apiv1/order-details/paginated?page=0&size=1000&sort=createdAt
 
 *    **Step 2: Aggregate Records (Data Preparation)**
 
@@ -117,8 +117,7 @@ When developer partners query our order header endpoint, they should filter out 
 
 **http** 
 
-**GET** /op/apiv1/order-header/paginated?cancelled=false&sort=shipWeekStartDate,asc 
- 
+**GET** op/apiv1/order-details?orderHeaderId=152&isCancelled=false
 
 ### Participation in the ONDC Revolution
 
