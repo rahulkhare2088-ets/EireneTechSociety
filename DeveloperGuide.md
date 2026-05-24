@@ -83,25 +83,25 @@ While the order details tell you how much item inventory is moving, the header p
 **Field Name** ---> **Supply Chain Predictive Use Case**
 
 
-shipWeekStartDate  ---> **Macro-Seasonality**: Best for high-level weekly velocity mapping, skipping daily sales noise. 
+**shipWeekStartDate**  ---> **Macro-Seasonality**: Best for high-level weekly velocity mapping, skipping daily sales noise. 
 
 
-originFacilityId ---> **Sourcing Forecast**: Predicts outbound volume strain on specific fulfillment centers. 
+**originFacilityId** ---> **Sourcing Forecast**: Predicts outbound volume strain on specific fulfillment centers. 
 
 
-destinationFacilityId ---> **Geographic Demand**: Forecasts regional item popularity and localized stockouts. 
+**destinationFacilityId** ---> **Geographic Demand**: Forecasts regional item popularity and localized stockouts. 
 
 
-deliveryStartDttm / EndDttm ---> **Transit Analytics**: Helps AI models calculate expected lead times and window bottlenecks. 
+**deliveryStartDttm / EndDttm** ---> **Transit Analytics**: Helps AI models calculate expected lead times and window bottlenecks. 
 
 
-scheduledDayOfWeek ---> **Day-of-Week Seasonality**: Predicts which days face the highest shipping and delivery spikes. 
+**scheduledDayOfWeek** ---> **Day-of-Week Seasonality**: Predicts which days face the highest shipping and delivery spikes. 
 
 
-orderFulfillmentStatus ---> **Data Filtering**: Ensures models filter out unfulfilled or pending entries for clean historical actuals. 
+**orderFulfillmentStatus** ---> **Data Filtering**: Ensures models filter out unfulfilled or pending entries for clean historical actuals. 
 
 
-cancelled ---> **Anomaly Detection**: Allows AI agents to subtract canceled orders so they don't skew real demand figures. 
+**cancelled** ---> **Anomaly Detection**: Allows AI agents to subtract canceled orders so they don't skew real demand figures. 
 
 ---
 
