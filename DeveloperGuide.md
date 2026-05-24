@@ -124,7 +124,7 @@ While the order details tell you how much item inventory is moving, the header p
      
     const etsOrderHeaders = [ { 
     
-    orderHeaderId: 1001,
+     orderHeaderId: 1001,
     
     shipWeekStartDate: "2026-05-18T00:00:00Z", 
     
