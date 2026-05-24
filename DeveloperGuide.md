@@ -64,7 +64,7 @@ To predict whether an item's sales will increase or decrease in the near future,
 
    Don't limit your forecasts strictly to individual items. The **OrderDetailsEntity** schema provides deep structural categorization metadata you can exploit for macro-predictions 
 
-*   **Department & Class Forecasting**: Group your history by deptId, classId, or subclassId to predict high-level purchasing shifts across entire merchandise domains instead of single 
+*   **Department & Class Forecasting**: Group your history by **deptId**, **classId**, or **subclassId** to predict high-level purchasing shifts across entire merchandise domains instead of single 
     items. 
 
 *   **Logistics & Spatial Planning**: Multiply your calculated future item quantities by the cube (volume) and weight attributes. This enables your application to forecast exactly how
