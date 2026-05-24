@@ -119,18 +119,22 @@ While the order details tell you how much item inventory is moving, the header p
     target delivery weeks**. 
 
     Here is a **JavaScript/Node.js** template showing how developers can parse our nested structure to prepare a location-based forecasting dataset
-
-
+    
  // 1. Mock nested payload received from your BaaS platform 
 
  const etsOrderHeaders = [ 
   { 
-    orderHeaderId: 1001, 
+    orderHeaderId: 1001,
+    
     shipWeekStartDate: "2026-05-18T00:00:00Z", 
+    
     destinationFacilityId: "FACILITY-EAST-01", 
+    
     cancelled: false, 
+    
     orderDetailsEntities: [ 
       { itemName: "Eco-Bottle 500ml", orderQuantity: 50 }, 
+      
       { itemName: "Bamboo Straws", orderQuantity: 100 } 
     ] 
   }, 
