@@ -121,6 +121,7 @@ While the order details tell you how much item inventory is moving, the header p
     Here is a **JavaScript/Node.js** template showing how developers can parse our nested structure to prepare a location-based forecasting dataset
 
 // 1. Mock nested payload received from your BaaS platform 
+
 const etsOrderHeaders = [ 
   { 
     orderHeaderId: 1001, 
@@ -143,36 +144,6 @@ const etsOrderHeaders = [
   } 
 ]; 
  
-// 2. Map items to specific destination facilities for regional forecasting 
-const regionalDemandMatrix = {}; 
- 
-etsOrderHeaders.forEach(header => { 
-  const weekStr = header.shipWeekStartDate.split('T')[0]; // "2026-05-18" 
-  const location = header.destinationFacilityId; 
- 
-  header.orderDetailsEntities.forEach(item => { 
-    if (!regionalDemandMatrix[location]) regionalDemandMatrix[location] = {}; 
-    if (!regionalDemandMatrix[location][item.itemName]) regionalDemandMatrix[location][item.itemName] = {}; 
-     
-    // Aggregate volume by week per location 
-    regionalDemandMatrix[location][item.itemName][weekStr] =  
-      (regionalDemandMatrix[location][item.itemName][weekStr] || 0) + item.orderQuantity; 
-  }); 
-}); 
- 
-console.log(JSON.stringify(regionalDemandMatrix, null, 2)); 
-/* 
-Output reveals hyper-localized trend data: 
-{ 
-  "FACILITY-EAST-01": { 
-    "Eco-Bottle 500ml": { "2026-05-18": 50 }, 
-    "Bamboo Straws": { "2026-05-18": 100 } 
-  }, 
-  "FACILITY-WEST-02": { 
-    "Eco-Bottle 500ml": { "2026-05-18": 30 } 
-  } 
-} 
-*/   
 
 ### 🤖 Predictive Superpowers for AI Agents 
 
