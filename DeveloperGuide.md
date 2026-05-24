@@ -6,7 +6,7 @@ Because we focuses purely on high-performance data persistence and standard CRUD
 
 ## 🧭 Core Fields for Time-Series Analysis 
 
-To predict whether an item's sales will increase or decrease in the near future, your AI agent or application only needs to aggregate and track three primary fields from the OrderDetailsEntity
+To predict whether an item's sales will increase or decrease in the near future, your AI agent or application only needs to aggregate and track three primary fields from the **OrderDetailsEntity**
 
 *   **createdAt:** Your time axis. Used to bucket sales into daily, weekly, or monthly data intervals. 
 
@@ -30,7 +30,7 @@ To predict whether an item's sales will increase or decrease in the near future,
 
      Here is a quick **Node.js** / **JavaScript** snippet to clean and structure the payload received from our platform
 
-    // 1. Mock data array representing the OrderDetailsEntity payload from platform 
+    // 1. Mock data array representing the **OrderDetailsEntity** payload from platform 
 
     const etsOrderRecords = [
     { createdAt: "2026-05-19T10:14:00Z", itemName: "Eco-Bottle 500ml", orderQuantity: 12 },
@@ -62,7 +62,7 @@ To predict whether an item's sales will increase or decrease in the near future,
 
 ## 💡 Pro-Tip: Advanced Enterprise Forecasts 
 
-   Don't limit your forecasts strictly to individual items. The OrderDetailsEntity schema provides deep structural categorization metadata you can exploit for macro-predictions 
+   Don't limit your forecasts strictly to individual items. The **OrderDetailsEntity** schema provides deep structural categorization metadata you can exploit for macro-predictions 
 
 *   **Department & Class Forecasting**: Group your history by deptId, classId, or subclassId to predict high-level purchasing shifts across entire merchandise domains instead of single 
     items. 
@@ -73,7 +73,7 @@ To predict whether an item's sales will increase or decrease in the near future,
 
 ## 📈 Developer Guide Addendum: Advanced Supply Chain Forecasting 
 
-By combining the OrderHeaderEntity with the underlying orderDetailsEntities, your applications and AI agents can transition from basic sales forecasting to highly advanced supply chain, shipping, and logistics prediction. 
+By combining the **OrderHeaderEntity** with the underlying **orderDetailsEntities**, your applications and AI agents can transition from basic sales forecasting to highly advanced supply chain, shipping, and logistics prediction. 
 
 ---
 
