@@ -154,26 +154,24 @@ While the order details tell you how much item inventory is moving, the header p
  
 // 2. Map items to specific destination facilities for regional forecasting 
 
-const regionalDemandMatrix = {}; 
+    const regionalDemandMatrix = {}; 
  
-etsOrderHeaders.forEach(header => { 
+      etsOrderHeaders.forEach(header => { 
 
-  const weekStr = header.shipWeekStartDate.split('T')[0]; // "2026-05-18" 
+      const weekStr = header.shipWeekStartDate.split('T')[0]; // "2026-05-18" 
   
-  const location = header.destinationFacilityId; 
+      const location = header.destinationFacilityId; 
  
-  header.orderDetailsEntities.forEach(item => { 
+      header.orderDetailsEntities.forEach(item => { 
   
-    if (!regionalDemandMatrix[location]) regionalDemandMatrix[location] = {}; 
+      if (!regionalDemandMatrix[location]) regionalDemandMatrix[location] = {}; 
     
-    if (!regionalDemandMatrix[location][item.itemName]) regionalDemandMatrix[location][item.itemName] = {}; 
+      if (!regionalDemandMatrix[location][item.itemName]) regionalDemandMatrix[location][item.itemName] = {}; 
      
-    // Aggregate volume by week per location 
+      // Aggregate volume by week per location 
     
-    regionalDemandMatrix[location][item.itemName][weekStr] =  
-      (regionalDemandMatrix[location][item.itemName][weekStr] || 0) + item.orderQuantity; 
-  }); 
-}); 
+      regionalDemandMatrix[location][item.itemName][weekStr] = (regionalDemandMatrix[location][item.itemName][weekStr] || 0) + item.orderQuantity; }); 
+    }); 
  
 console.log(JSON.stringify(regionalDemandMatrix, null, 2)); 
 
