@@ -6,7 +6,7 @@ Because we focuses purely on high-performance data persistence and standard CRUD
 
 ## 🧭 Core Fields for Time-Series Analysis 
 
-To predict whether an item's sales will increase or decrease in the near future, your AI agent or application only needs to aggregate and track three primary fields from the OrderDetailsEntity:
+To predict whether an item's sales will increase or decrease in the near future, your AI agent or application only needs to aggregate and track three primary fields from the OrderDetailsEntity
 
 *   **createdAt:** Your time axis. Used to bucket sales into daily, weekly, or monthly data intervals. 
 
