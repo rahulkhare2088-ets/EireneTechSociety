@@ -156,7 +156,7 @@ While the order details tell you how much item inventory is moving, the header p
 
     const regionalDemandMatrix = {}; 
  
-      etsOrderHeaders.forEach(header => { 
+    etsOrderHeaders.forEach(header => { 
 
       const weekStr = header.shipWeekStartDate.split('T')[0]; // "2026-05-18" 
   
@@ -164,9 +164,9 @@ While the order details tell you how much item inventory is moving, the header p
  
       header.orderDetailsEntities.forEach(item => { 
   
-      if (!regionalDemandMatrix[location]) regionalDemandMatrix[location] = {}; 
+        if (!regionalDemandMatrix[location]) regionalDemandMatrix[location] = {}; 
     
-      if (!regionalDemandMatrix[location][item.itemName]) regionalDemandMatrix[location][item.itemName] = {}; 
+        if (!regionalDemandMatrix[location][item.itemName]) regionalDemandMatrix[location][item.itemName] = {}; 
      
       // Aggregate volume by week per location 
     
@@ -180,14 +180,15 @@ While the order details tell you how much item inventory is moving, the header p
     { 
       "FACILITY-EAST-01": { 
   
-      "Eco-Bottle 500ml": { "2026-05-18": 50 }, 
+        "Eco-Bottle 500ml": { "2026-05-18": 50 }, 
     
-      "Bamboo Straws": { "2026-05-18": 100 } 
+        "Bamboo Straws": { "2026-05-18": 100 } 
+        
       }, 
-      
       "FACILITY-WEST-02": { 
   
-      "Eco-Bottle 500ml": { "2026-05-18": 30 } 
+        "Eco-Bottle 500ml": { "2026-05-18": 30 } 
+        
       } 
     } 
 
