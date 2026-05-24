@@ -124,15 +124,10 @@ While the order details tell you how much item inventory is moving, the header p
 
  const etsOrderHeaders = [ 
   { 
-  
     orderHeaderId: 1001,
-    
     shipWeekStartDate: "2026-05-18T00:00:00Z", 
-    
     destinationFacilityId: "FACILITY-EAST-01", 
-    
     cancelled: false, 
-    
     orderDetailsEntities: [ 
       { itemName: "Eco-Bottle 500ml", orderQuantity: 50 }, 
       
