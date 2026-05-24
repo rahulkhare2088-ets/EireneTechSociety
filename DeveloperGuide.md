@@ -122,10 +122,8 @@ While the order details tell you how much item inventory is moving, the header p
     
  // 1. Mock nested payload received from your BaaS platform 
 
-
- const etsOrderHeaders = [ 
- { 
- 
+    const etsOrderHeaders = [ { 
+    
     orderHeaderId: 1001,
     
     shipWeekStartDate: "2026-05-18T00:00:00Z", 
@@ -138,8 +136,7 @@ While the order details tell you how much item inventory is moving, the header p
       { itemName: "Eco-Bottle 500ml", orderQuantity: 50 }, 
       
       { itemName: "Bamboo Straws", orderQuantity: 100 } 
-    ] 
-}, { 
+    ] }, { 
   
     orderHeaderId: 1002, 
     
@@ -150,12 +147,9 @@ While the order details tell you how much item inventory is moving, the header p
     cancelled: false, 
     
     orderDetailsEntities: [ 
-    
       { itemName: "Eco-Bottle 500ml", orderQuantity: 30 } 
-      
     ] 
-  } 
-]; 
+  } ]; 
  
 // 2. Map items to specific destination facilities for regional forecasting 
 
