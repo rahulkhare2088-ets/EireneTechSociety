@@ -83,25 +83,25 @@ While the order details tell you how much item inventory is moving, the header p
 **Field Name** ---> **Supply Chain Predictive Use Case**
 
 
-**shipWeekStartDate**  ---> **Macro-Seasonality**: Best for high-level weekly velocity mapping, skipping daily sales noise. 
+**shipWeekStartDate**  ---> Macro-Seasonality: Best for high-level weekly velocity mapping, skipping daily sales noise. 
 
 
-**originFacilityId** ---> **Sourcing Forecast**: Predicts outbound volume strain on specific fulfillment centers. 
+**originFacilityId** ---> Sourcing Forecast: Predicts outbound volume strain on specific fulfillment centers. 
 
 
-**destinationFacilityId** ---> **Geographic Demand**: Forecasts regional item popularity and localized stockouts. 
+**destinationFacilityId** ---> Geographic Demand: Forecasts regional item popularity and localized stockouts. 
 
 
-**deliveryStartDttm / EndDttm** ---> **Transit Analytics**: Helps AI models calculate expected lead times and window bottlenecks. 
+**deliveryStartDttm / EndDttm** ---> Transit Analytics: Helps AI models calculate expected lead times and window bottlenecks. 
 
 
-**scheduledDayOfWeek** ---> **Day-of-Week Seasonality**: Predicts which days face the highest shipping and delivery spikes. 
+**scheduledDayOfWeek** ---> Day-of-Week Seasonality: Predicts which days face the highest shipping and delivery spikes. 
 
 
-**orderFulfillmentStatus** ---> **Data Filtering**: Ensures models filter out unfulfilled or pending entries for clean historical actuals. 
+**orderFulfillmentStatus** ---> Data Filtering: Ensures models filter out unfulfilled or pending entries for clean historical actuals. 
 
 
-**cancelled** ---> **Anomaly Detection**: Allows AI agents to subtract canceled orders so they don't skew real demand figures. 
+**cancelled** ---> Anomaly Detection: Allows AI agents to subtract canceled orders so they don't skew real demand figures. 
 
 ---
 
@@ -111,16 +111,17 @@ While the order details tell you how much item inventory is moving, the header p
 
     When developer partners query our order header endpoint, they should filter out canceled orders to keep their forecasting data clean and accurate
 
-   **HTTP** **GET:** op/apiv1/order-details?orderHeaderId=152&isCancelled=false
+    **HTTP** **GET:** op/apiv1/order-details?orderHeaderId=152&isCancelled=false
 
 *   **Step 2: Correlate Location and Timestamps (Data Prep)**
 
-    Because our platform structure nests orderDetailsEntities inside the OrderHeaderEntity, developers can map items directly to **specific geographic destination nodes and target
-    delivery weeks**. 
+    Because our platform structure nests **orderDetailsEntities** inside the **OrderHeaderEntity**, developers can map items directly to **specific geographic destination nodes and
+    target delivery weeks**. 
 
     Here is a **JavaScript/Node.js** template showing how developers can parse our nested structure to prepare a location-based forecasting dataset
 
 // 1. Mock nested payload received from your BaaS platform 
+
 const etsOrderHeaders = [ 
   { 
     orderHeaderId: 1001, 
@@ -139,6 +140,7 @@ const etsOrderHeaders = [
 ]; 
  
 // 2. Map items to specific destination facilities for regional forecasting 
+
 const regionalDemandMatrix = {}; 
  
 etsOrderHeaders.forEach(header => { 
@@ -150,13 +152,14 @@ etsOrderHeaders.forEach(header => {
     if (!regionalDemandMatrix[location][item.itemName]) regionalDemandMatrix[location][item.itemName] = {}; 
      
     // Aggregate volume by week per location 
+    
     regionalDemandMatrix[location][item.itemName][weekStr] =  
       (regionalDemandMatrix[location][item.itemName][weekStr] || 0) + item.orderQuantity; 
   }); 
 }); 
  
 console.log(JSON.stringify(regionalDemandMatrix, null, 2)); 
-/* 
+
 Output reveals hyper-localized trend data: 
 { 
   "FACILITY-EAST-01": { 
@@ -167,14 +170,15 @@ Output reveals hyper-localized trend data:
     "Eco-Bottle 500ml": { "2026-05-18": 30 } 
   } 
 } 
-*/ 
 
-### 🤖 Predictive Superpowers for AI Agents 
+*   ### 🤖 Predictive Superpowers for AI Agents 
 
-With this header data available, our developer partners' AI agents can handle incredibly smart autonomous operations
+    With this header data available, our developer partners' AI agents can handle incredibly smart autonomous operations
 
-**Smart Rebalancing**: If the AI agent detects a 30% demand drop in "FACILITY-EAST-01" but a 40% surge in "FACILITY-WEST-02" for the upcoming shipWeekStartDate, it can automatically issue inventory transfer requests. 
+    **Smart Rebalancing**: If the AI agent detects a 30% demand drop in "FACILITY-EAST-01" but a 40% surge in "FACILITY-WEST-02" for the upcoming shipWeekStartDate, it can
+    automatically issue inventory transfer requests. 
 
-**Carrier Scheduling**: By projecting future shipping volumes (orderTransportationStatus) against scheduledDayOfWeek, the app can predict which days will experience logistics bottlenecks and pre-book freight trucks weeks in advance. 
+    **Carrier Scheduling**: By projecting future shipping volumes (**orderTransportationStatus**) against **scheduledDayOfWeek**, the app can predict which days will experience
+    logistics bottlenecks and pre-book freight trucks weeks in advance. 
 
 --- 
