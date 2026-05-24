@@ -120,22 +120,25 @@ While the order details tell you how much item inventory is moving, the header p
 
     Here is a **JavaScript/Node.js** template showing how developers can parse our nested structure to prepare a location-based forecasting dataset
 
-    // 1. Mock nested payload received from your BaaS platform 
+  // 1. Mock nested payload received from your BaaS platform 
 
-    const etsOrderHeaders = [ 
-      { 
-        orderHeaderId: 1001, 
-        shipWeekStartDate: "2026-05-18T00:00:00Z", 
-        destinationFacilityId: "FACILITY-EAST-01", 
-        cancelled: false, 
-        orderDetailsEntities: [{ itemName: "Eco-Bottle 500ml", orderQuantity: 50 },{ itemName: "Bamboo Straws", orderQuantity: 100 }] 
-      }, 
-      { 
-        orderHeaderId: 1002, 
-        shipWeekStartDate: "2026-05-18T00:00:00Z", 
-        destinationFacilityId: "FACILITY-WEST-02", 
-        cancelled: false, 
-        orderDetailsEntities: [{ itemName: "Eco-Bottle 500ml", orderQuantity: 30 }] 
+  const etsOrderHeaders = [ 
+   { 
+      orderHeaderId: 1001, 
+      shipWeekStartDate: "2026-05-18T00:00:00Z", 
+      destinationFacilityId: "FACILITY-EAST-01", 
+      cancelled: false, 
+      orderDetailsEntities: [
+      {itemName: "Eco-Bottle 500ml", orderQuantity: 50 },
+      { itemName: "Bamboo Straws", orderQuantity: 100 }
+      ] 
+   }, 
+   { 
+      orderHeaderId: 1002, 
+      shipWeekStartDate: "2026-05-18T00:00:00Z", 
+      destinationFacilityId: "FACILITY-WEST-02", 
+      cancelled: false, 
+      orderDetailsEntities: [{ itemName: "Eco-Bottle 500ml", orderQuantity: 30 }] 
       } 
     ]; 
      
@@ -175,7 +178,7 @@ While the order details tell you how much item inventory is moving, the header p
 
 With this header data available, our developer partners' AI agents can handle incredibly smart autonomous operations
 
-*   **Smart Rebalancing**: If the AI agent detects a 30% demand drop in "FACILITY-EAST-01" but a 40% surge in "FACILITY-WEST-02" for the upcoming shipWeekStartDate, it can
+*   **Smart Rebalancing**: If the AI agent detects a 30% demand drop in "FACILITY-EAST-01" but a 40% surge in "FACILITY-WEST-02" for the upcoming **shipWeekStartDate**, it can
     automatically issue inventory transfer requests. 
 
 *   **Carrier Scheduling**: By projecting future shipping volumes (**orderTransportationStatus**) against **scheduledDayOfWeek**, the app can predict which days will experience
