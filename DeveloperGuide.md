@@ -109,7 +109,7 @@ While the order details tell you how much item inventory is moving, the header p
 
 *   **Step 1: Extract and Filter Valid Order History**
 
-    When developer partners query our order header endpoint, they should filter out canceled orders to keep their forecasting data clean and accurate
+    When developer partners query our order endpoint, they should filter out canceled orders to keep their forecasting data clean and accurate
 
     **HTTP** **GET:** op/apiv1/order-details?orderHeaderId=152&isCancelled=false
 
