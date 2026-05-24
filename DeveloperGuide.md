@@ -75,8 +75,6 @@ To predict whether an item's sales will increase or decrease in the near future,
 
 By combining the **OrderHeaderEntity** with the underlying **orderDetailsEntities**, your applications and AI agents can transition from basic sales forecasting to highly advanced supply chain, shipping, and logistics prediction. 
 
----
-
 ### 🚚 Core Header Fields for Advanced Predictive Models 
 
 While the order details tell you how much item inventory is moving, the header provides the physical constraints of time and geography. Developers can leverage these specific header fields
