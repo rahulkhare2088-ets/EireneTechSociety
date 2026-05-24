@@ -168,10 +168,13 @@ While the order details tell you how much item inventory is moving, the header p
     
         if (!regionalDemandMatrix[location][item.itemName]) regionalDemandMatrix[location][item.itemName] = {}; 
      
-      // Aggregate volume by week per location 
+        // Aggregate volume by week per location 
     
-      regionalDemandMatrix[location][item.itemName][weekStr] = 
-      (regionalDemandMatrix[location][item.itemName][weekStr] || 0) + item.orderQuantity; }); 
+        regionalDemandMatrix[location][item.itemName][weekStr] = 
+        (regionalDemandMatrix[location][item.itemName][weekStr] || 0) + item.orderQuantity;
+        
+      }); 
+      
     }); 
  
     console.log(JSON.stringify(regionalDemandMatrix, null, 2)); 
@@ -179,16 +182,12 @@ While the order details tell you how much item inventory is moving, the header p
     Output reveals hyper-localized trend data: 
     { 
       "FACILITY-EAST-01": { 
-  
         "Eco-Bottle 500ml": { "2026-05-18": 50 }, 
-    
         "Bamboo Straws": { "2026-05-18": 100 } 
         
       }, 
       "FACILITY-WEST-02": { 
-  
         "Eco-Bottle 500ml": { "2026-05-18": 30 } 
-        
       } 
     } 
 
