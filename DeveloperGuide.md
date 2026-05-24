@@ -124,6 +124,7 @@ While the order details tell you how much item inventory is moving, the header p
 
  const etsOrderHeaders = [ 
   { 
+  
     orderHeaderId: 1001,
     
     shipWeekStartDate: "2026-05-18T00:00:00Z", 
@@ -139,10 +140,15 @@ While the order details tell you how much item inventory is moving, the header p
     ] 
   }, 
   { 
+  
     orderHeaderId: 1002, 
+    
     shipWeekStartDate: "2026-05-18T00:00:00Z", 
+    
     destinationFacilityId: "FACILITY-WEST-02", 
+    
     cancelled: false, 
+    
     orderDetailsEntities: [ 
       { itemName: "Eco-Bottle 500ml", orderQuantity: 30 } 
     ] 
@@ -154,14 +160,19 @@ While the order details tell you how much item inventory is moving, the header p
 const regionalDemandMatrix = {}; 
  
 etsOrderHeaders.forEach(header => { 
+
   const weekStr = header.shipWeekStartDate.split('T')[0]; // "2026-05-18" 
+  
   const location = header.destinationFacilityId; 
  
   header.orderDetailsEntities.forEach(item => { 
+  
     if (!regionalDemandMatrix[location]) regionalDemandMatrix[location] = {}; 
+    
     if (!regionalDemandMatrix[location][item.itemName]) regionalDemandMatrix[location][item.itemName] = {}; 
      
     // Aggregate volume by week per location 
+    
     regionalDemandMatrix[location][item.itemName][weekStr] =  
       (regionalDemandMatrix[location][item.itemName][weekStr] || 0) + item.orderQuantity; 
   }); 
@@ -172,10 +183,13 @@ console.log(JSON.stringify(regionalDemandMatrix, null, 2));
 Output reveals hyper-localized trend data: 
 { 
   "FACILITY-EAST-01": { 
+  
     "Eco-Bottle 500ml": { "2026-05-18": 50 }, 
+    
     "Bamboo Straws": { "2026-05-18": 100 } 
   }, 
   "FACILITY-WEST-02": { 
+  
     "Eco-Bottle 500ml": { "2026-05-18": 30 } 
   } 
 } 
