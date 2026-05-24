@@ -107,21 +107,18 @@ While the order details tell you how much item inventory is moving, the header p
 
 ### 🛠️ Step-by-Step Integration Workflow (Parent-Child Schema) 
 
-**Step 1: Extract and Filter Valid Order History**
+*   **Step 1: Extract and Filter Valid Order History**
 
-When developer partners query our order header endpoint, they should filter out canceled orders to keep their forecasting data clean and accurate
+    When developer partners query our order header endpoint, they should filter out canceled orders to keep their forecasting data clean and accurate
 
-**http** 
+   **HTTP** **GET:** op/apiv1/order-details?orderHeaderId=152&isCancelled=false
 
-**GET** op/apiv1/order-details?orderHeaderId=152&isCancelled=false
+*   **Step 2: Correlate Location and Timestamps (Data Prep)**
 
-**Step 2: Correlate Location and Timestamps (Data Prep)**
+    Because our platform structure nests orderDetailsEntities inside the OrderHeaderEntity, developers can map items directly to **specific geographic destination nodes and target
+    delivery weeks**. 
 
-Because our platform structure nests orderDetailsEntities inside the OrderHeaderEntity, developers can map items directly to **specific geographic destination nodes and target delivery weeks**. 
-
-Here is a **JavaScript/Node.js** template showing how developers can parse our nested structure to prepare a location-based forecasting dataset
-
-**javascript**
+    Here is a **JavaScript/Node.js** template showing how developers can parse our nested structure to prepare a location-based forecasting dataset
 
 // 1. Mock nested payload received from your BaaS platform 
 const etsOrderHeaders = [ 
@@ -137,9 +134,7 @@ const etsOrderHeaders = [
     shipWeekStartDate: "2026-05-18T00:00:00Z", 
     destinationFacilityId: "FACILITY-WEST-02", 
     cancelled: false, 
-    orderDetailsEntities: [ 
-      { itemName: "Eco-Bottle 500ml", orderQuantity: 30 } 
-    ] 
+    orderDetailsEntities: [{ itemName: "Eco-Bottle 500ml", orderQuantity: 30 }] 
   } 
 ]; 
  
