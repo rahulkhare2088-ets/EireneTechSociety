@@ -184,7 +184,6 @@ While the order details tell you how much item inventory is moving, the header p
       "FACILITY-EAST-01": { 
         "Eco-Bottle 500ml": { "2026-05-18": 50 }, 
         "Bamboo Straws": { "2026-05-18": 100 } 
-        
       }, 
       "FACILITY-WEST-02": { 
         "Eco-Bottle 500ml": { "2026-05-18": 30 } 
