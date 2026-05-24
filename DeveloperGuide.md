@@ -52,7 +52,7 @@ To predict whether an item's sales will increase or decrease in the near future,
 
     Depending on your tech stack, you can instantly pass this clean timeline array into open-source mathematical libraries
 
-    **For Mobile & Web UI Dashboards (Client-Side)**: Use lightweight tools like regression-js or simple-statistics to run rapid linear trend regressions. Plot these coordinates
+    **For Mobile & Web UI Dashboards (Client-Side)**: Use lightweight tools like **regression-js** or simple-statistics to run rapid linear trend regressions. Plot these coordinates
     straight into charts (**Chart.js** or **ECharts**) to draw a dotted line into the future for your store managers. 
 
     **For Autonomous AI Agents (Python / Server-Side)**: Convert your timeline into a **Pandas DataFrame** and pass it to **Meta’s Prophet** library. It naturally extracts weekly/yearly
