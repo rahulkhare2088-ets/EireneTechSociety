@@ -115,7 +115,7 @@ We believe in building public utilities transparently. The engine follows a phas
 
 *   **Phase 1 (Current): Free Public Tier.** The codebase remains closed-source while we stress-test infrastructure stability. Hosted API layers are entirely free for developers, funded by community micro-donations. 
 
-*   **Phase 2: Open Core & Commercial Scale.** Introduction of enterprise high-volume tiers. All incoming revenue directly finances advanced cloud scaling, with a 10% operational allocation to the founder for ongoing maintenance. 
+*   **Phase 2: Open Core & Commercial Scale.** Introduction of enterprise high-volume tiers. All incoming revenue directly finances advanced cloud scaling, with a 10% operational allocation to the Eirene Tech Society for ongoing maintenance. 
 
 *   **Phase 3: The Apache Foundation Transition.** The entire source code will be released publicly under the **Apache 2.0 License**. Governance will officially transfer to an independent, Indian Section 8 non-profit foundation. 
 
