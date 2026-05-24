@@ -120,65 +120,65 @@ While the order details tell you how much item inventory is moving, the header p
 
     Here is a **JavaScript/Node.js** template showing how developers can parse our nested structure to prepare a location-based forecasting dataset
 
-// 1. Mock nested payload received from your BaaS platform 
+    // 1. Mock nested payload received from your BaaS platform 
 
-const etsOrderHeaders = [ 
-  { 
-    orderHeaderId: 1001, 
-    shipWeekStartDate: "2026-05-18T00:00:00Z", 
-    destinationFacilityId: "FACILITY-EAST-01", 
-    cancelled: false, 
-    orderDetailsEntities: [{ itemName: "Eco-Bottle 500ml", orderQuantity: 50 },{ itemName: "Bamboo Straws", orderQuantity: 100 }] 
-  }, 
-  { 
-    orderHeaderId: 1002, 
-    shipWeekStartDate: "2026-05-18T00:00:00Z", 
-    destinationFacilityId: "FACILITY-WEST-02", 
-    cancelled: false, 
-    orderDetailsEntities: [{ itemName: "Eco-Bottle 500ml", orderQuantity: 30 }] 
-  } 
-]; 
- 
-// 2. Map items to specific destination facilities for regional forecasting 
-
-const regionalDemandMatrix = {}; 
- 
-etsOrderHeaders.forEach(header => { 
-  const weekStr = header.shipWeekStartDate.split('T')[0]; // "2026-05-18" 
-  const location = header.destinationFacilityId; 
- 
-  header.orderDetailsEntities.forEach(item => { 
-    if (!regionalDemandMatrix[location]) regionalDemandMatrix[location] = {}; 
-    if (!regionalDemandMatrix[location][item.itemName]) regionalDemandMatrix[location][item.itemName] = {}; 
+    const etsOrderHeaders = [ 
+      { 
+        orderHeaderId: 1001, 
+        shipWeekStartDate: "2026-05-18T00:00:00Z", 
+        destinationFacilityId: "FACILITY-EAST-01", 
+        cancelled: false, 
+        orderDetailsEntities: [{ itemName: "Eco-Bottle 500ml", orderQuantity: 50 },{ itemName: "Bamboo Straws", orderQuantity: 100 }] 
+      }, 
+      { 
+        orderHeaderId: 1002, 
+        shipWeekStartDate: "2026-05-18T00:00:00Z", 
+        destinationFacilityId: "FACILITY-WEST-02", 
+        cancelled: false, 
+        orderDetailsEntities: [{ itemName: "Eco-Bottle 500ml", orderQuantity: 30 }] 
+      } 
+    ]; 
      
-    // Aggregate volume by week per location 
+    // 2. Map items to specific destination facilities for regional forecasting 
     
-    regionalDemandMatrix[location][item.itemName][weekStr] =  
-      (regionalDemandMatrix[location][item.itemName][weekStr] || 0) + item.orderQuantity; 
-  }); 
-}); 
- 
-console.log(JSON.stringify(regionalDemandMatrix, null, 2)); 
+    const regionalDemandMatrix = {}; 
+     
+    etsOrderHeaders.forEach(header => { 
+      const weekStr = header.shipWeekStartDate.split('T')[0]; // "2026-05-18" 
+      const location = header.destinationFacilityId; 
+     
+      header.orderDetailsEntities.forEach(item => { 
+        if (!regionalDemandMatrix[location]) regionalDemandMatrix[location] = {}; 
+        if (!regionalDemandMatrix[location][item.itemName]) regionalDemandMatrix[location][item.itemName] = {}; 
+         
+        // Aggregate volume by week per location 
+        
+        regionalDemandMatrix[location][item.itemName][weekStr] =  
+          (regionalDemandMatrix[location][item.itemName][weekStr] || 0) + item.orderQuantity; 
+      }); 
+    }); 
+     
+    console.log(JSON.stringify(regionalDemandMatrix, null, 2)); 
+    
+    Output reveals hyper-localized trend data: 
+    { 
+      "FACILITY-EAST-01": { 
+        "Eco-Bottle 500ml": { "2026-05-18": 50 }, 
+        "Bamboo Straws": { "2026-05-18": 100 } 
+      }, 
+      "FACILITY-WEST-02": { 
+        "Eco-Bottle 500ml": { "2026-05-18": 30 } 
+      } 
+    } 
 
-Output reveals hyper-localized trend data: 
-{ 
-  "FACILITY-EAST-01": { 
-    "Eco-Bottle 500ml": { "2026-05-18": 50 }, 
-    "Bamboo Straws": { "2026-05-18": 100 } 
-  }, 
-  "FACILITY-WEST-02": { 
-    "Eco-Bottle 500ml": { "2026-05-18": 30 } 
-  } 
-} 
+### 🤖 Predictive Superpowers for AI Agents 
 
-*   ### 🤖 Predictive Superpowers for AI Agents 
+With this header data available, our developer partners' AI agents can handle incredibly smart autonomous operations
 
-    With this header data available, our developer partners' AI agents can handle incredibly smart autonomous operations
-
-    **Smart Rebalancing**: If the AI agent detects a 30% demand drop in "FACILITY-EAST-01" but a 40% surge in "FACILITY-WEST-02" for the upcoming shipWeekStartDate, it can
+*   **Smart Rebalancing**: If the AI agent detects a 30% demand drop in "FACILITY-EAST-01" but a 40% surge in "FACILITY-WEST-02" for the upcoming shipWeekStartDate, it can
     automatically issue inventory transfer requests. 
 
-    **Carrier Scheduling**: By projecting future shipping volumes (**orderTransportationStatus**) against **scheduledDayOfWeek**, the app can predict which days will experience
+*   **Carrier Scheduling**: By projecting future shipping volumes (**orderTransportationStatus**) against **scheduledDayOfWeek**, the app can predict which days will experience
     logistics bottlenecks and pre-book freight trucks weeks in advance. 
 
 --- 
