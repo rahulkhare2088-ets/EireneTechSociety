@@ -15,7 +15,7 @@ To predict whether an item's sales will increase or decrease in the near future,
 *   **orderQuantity:** The metric or target variable you are trying to predict. 
 --- 
 
-## ️ 🛠️ Step-by-step Integration Workflow
+## ️ 🛠️ Step-by-Step Integration Workflow
 
 *    **Step 1: Fetch Historical Order Data**
   
