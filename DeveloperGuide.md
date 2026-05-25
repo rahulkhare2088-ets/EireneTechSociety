@@ -21,7 +21,7 @@ To predict whether an item's sales will increase or decrease in the near future,
   
      Your application or autonomous AI agent should periodically make standard **GET** requests to pull historical data for the target store or item. 
 
-     **HTTP** **GET**: op/apiv1/order-details/paginated?page=0&size=1000&sort=createdAt
+     **HTTP** **GET**: op/apiv1/order-details/paginated?page=0&size=1000&sort=createdAt,asc
 
 *    **Step 2: Aggregate Records (Data Preparation)**
 
