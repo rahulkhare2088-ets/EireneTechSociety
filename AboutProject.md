@@ -7,7 +7,7 @@ A high-performance, modular supply chain infrastructure engine built on **Spring
 
 ## 🚀 Live API Reference & Links 
 
-*   **Interactive Documentation:** [Postman API Portal](https://www.postman.com/eirene-tech-society-2088/ets-public/documentation/bu73jqs/order-fulfillment-processor-engine?sideView=agentMode) 
+*   **Interactive Documentation:** [Postman API Portal](https://www.postman.com/eirene-tech-society-2088/ets-public/documentation/bu73jqs/order-fulfillment-processor-engine) 
 
 *   **BaaS (Backend as a Service) project Links:**
   
