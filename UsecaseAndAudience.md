@@ -86,8 +86,8 @@ The order contains three distinct line items, each with specific physical charac
 ### Summary for Consumer
 If you are the "Consumer" of this XML order message, this data is telling you:
 
-   "Hey, Company ETS has a new order (TC11223). You need to pick up 3 large units of distressed food and special project items from Facility (7954) on Thursday 
-    afternoon and get them to Facility 01103. The order is released for picking, but you still need to assign a driver/truck."
+   **"Hey, Company ETS has a new order (TC11223). You need to pick up 3 large units of distressed food and special project items from Facility (7954) on Thursday 
+    afternoon and get them to Facility 01103. The order is released for picking, but you still need to assign a driver/truck."**
 --- 
 
  
