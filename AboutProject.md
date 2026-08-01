@@ -11,9 +11,8 @@ A high-performance, modular supply chain infrastructure engine built on **Spring
 
 *   **BaaS (Backend as a Service) project Links:** Click below links and takes 1-2 min for all 3 respective instances to spin up and run, currenty after 15 min of idle time (no request) instance spin down automatically.
   
-    [API Gateway Proxy](https://op-prod.onrender.com/swagger-ui/index.html)
-    [Authorization Server](https://auth-service-21jy.onrender.com/)
-    [Fulfillment Processing Core](https://order-service-bk2q.onrender.com/) 
+    [API Gateway Proxy](https://portal.eirenetechsociety.in/swagger-ui/index.html)
+    [Authorization Server](https://auth.eirenetechsociety.in/auth) 
 
 --- 
 
