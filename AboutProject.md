@@ -9,7 +9,7 @@ A high-performance, modular supply chain infrastructure engine built on **Spring
 
 *   **Interactive Documentation:** [Postman API Portal](https://www.postman.com/eirene-tech-society-2088/ets-public/documentation/bu73jqs/order-fulfillment-processor-engine?sideView=agentMode) 
 
-*   **BaaS (Backend as a Service) project Links:** Click below links and takes 1-2 min for all 3 respective instances to spin up and run, currenty after 15 min of idle time (no request) instance spin down automatically.
+*   **BaaS (Backend as a Service) project Links:**
   
     [API Gateway Proxy](https://portal.eirenetechsociety.in/swagger-ui/index.html)
     [Authorization Server](https://auth.eirenetechsociety.in/auth) 
