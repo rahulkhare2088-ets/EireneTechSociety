@@ -47,29 +47,29 @@ this is critical for real-time supply chain visibility. Here is a breakdown of w
 
 *   **Action**: A new order creation (Create). 
 
-*   **Object**: A DistributionOrder (ID: TC11223).
+*   **Object**: A DistributionOrder (ID: UP-TC626116).
 
-*   **Status**: The order is Released (ready to be worked on) but Unplanned (not yet assigned to a specific truck or route).
+*   **Status**: The order is Released (ready to be worked on) and Planned (assigned to a specific truck or route).
 
 *   **Domain**: Specifically identifies "DISTRESSED_FOOD" and "PACK_HOLD" and "PROJECT_CUBE". This suggests the system is handling inventory that might be near expiration or requires special handling (likely "Distressed" means items that need to be cleared quickly or are slightly damaged) and Packed and Hold fulfillment strategy, covering scenarios where orders cannot be immediately shipped or picked up due to capacity or delivery constraints also Project cubes represent supplemental carton or cubic unit allowances that a store can absorb during peak fulfillment periods or when overflow capacity is required or due to supply chain disruption, where overstocking can help meet market demand. 
 
 ### Logistics & Routing (The "Where & When") 
 
-*   **Origin (7954)**: The Distribution Center or Supplier where the items are currently located. 
+*   **Origin (52)**: The Distribution Center or Supplier where the items are currently located. 
 
-*   **Destination (01103)**: The specific Store or Customer location.
+*   **Destination (00053)**: The specific Store or Customer location.
 
 *   **Schedule**:
-        Pickup: November 26, 2025, between 2:00 PM and 4:00 PM.
+        Pickup: May 04, 2026, around 08:00 AM.
         Delivery: Scheduled for the following morning.
  
 
 ### Inventory Details (The Line Items)
 The order contains three distinct line items, each with specific physical characteristics:
 
-*   **Volume/Size**: Each item takes up 80 Cubic Feet (Ft3). This is quite large (equivalent to a large pallet).
+*   **Volume/Size**: Each item takes up 100 Cubic Feet (Ft3). This is quite large (equivalent to a large pallet).
 
-*   **Product Class (9999)**: A generic code often used for miscellaneous or specialty items.
+*   **Product Class (999)**: A generic code often used for miscellaneous or specialty items.
 
 *   **Protection Level (FLOOR)**: Suggests these items don't require high-tier racking and can be stored on the warehouse floor.
 
@@ -86,8 +86,8 @@ The order contains three distinct line items, each with specific physical charac
 ### Summary for Consumer
 If you are the "Consumer" of this XML order message, this data is telling you:
 
-   **"Hey, Company ETS has a new order (TC11223). You need to pick up 3 large units of distressed food and special project items from Facility (7954) on Thursday 
-    afternoon and get them to Facility 01103. The order is released for picking, but you still need to assign a driver/truck."**
+   **"Hey, Company ETS has a new order (UP-TC626116). You need to pick up 3 large units of distressed food and special project items from Facility (52) on Tuesday 
+    afternoon and get them to Facility (00053). The order is released for picking, but you still need to assign a driver/truck."**
 --- 
 
  
