@@ -78,7 +78,7 @@ The order contains three distinct line items, each with specific physical charac
 *   **Trigger for External Systems**: This message suggests our BaaS is successfully acting as the "Brain." It has taken a request from a user and translated it into a 
     technical instruction for a Warehouse Management System (WMS) or Transportation Management System (TMS).
 
-*   **Specialized Workflow**: The use of CustomFieldList (e.g., SEND_WM, PROJECT_CUBE) indicates your platform is highly customizable. It’s telling the downstream 
+*   **Specialized Workflow**: The use of CustomFieldList (e.g., SEND_WM, PROJECT_CUBE) indicates our platform is highly customizable. It’s telling the downstream 
     system: "Yes, send this to the Warehouse Manager (WM)" and "Yes, calculate the cubic volume (PROJECT_CUBE)."
 
 *   **Financial Integration**: The BillingMethodCode (Cash/Wire/Digital) indicates that your fulfillment API can be linked to the payment/accounting side of the business.
@@ -87,7 +87,7 @@ The order contains three distinct line items, each with specific physical charac
 If you are the "Consumer" of this XML order message, this data is telling you:
 
    **"Hey, Company ETS has a new order (UP-TC626116). You need to pick up 3 large units of distressed food and special project items from Facility (52) on Tuesday 
-    afternoon and get them to Facility (00053). The order is released for picking, but you still need to assign a driver/truck."**
+    morning and get them to Facility (00053). The order is released for picking, and assigned to a driver/truck."**
 --- 
 
  
