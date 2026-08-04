@@ -39,7 +39,7 @@ Our target audience is segmented into three primary tiers based on the "Privileg
 As a BaaS platform, we are competing with headless commerce engines. Our value proposition lies in the "Privileged User" logic—essentially offering multi-tenancy
 out of the box, allowing a parent company to oversee multiple sub-entities or stores via a single API gateway. 
 
-Our XML order message represents a Distribution Order (DO) triggered by our order fulfillment API and placed for downstream processing. 
+Our [XML order message](https://www.postman.com/eirene-tech-society-2088/ets-public/example/20263467-5e3b09c3-fb24-4ab3-8b72-6744908960d7) represents a Distribution Order (DO) triggered by our order fulfillment API and placed for downstream processing. 
 It acts as a digital manifest telling a warehouse or transportation provider exactly what to move, where, and when.
 this is critical for real-time supply chain visibility. Here is a breakdown of what the sample data suggests:
 
