@@ -116,8 +116,8 @@ The XML order data shared is a perfect "trigger" for several specialized AI agen
 
     **Action**: "Agentic AI" doesn't just plan a route once; it continuously recalculates based on live environmental signals.
 
-    **Value**: If a weather event or traffic jam occurs between the Origin (7954) and Destination (01103), the agent can autonomously reroute the delivery truck or
-    re-sequence the drop-offs to hit the specified 14:00 pickup window without human dispatcher intervention. 
+    **Value**: If a weather event or traffic jam occurs between the Origin (52) and Destination (00053), the agent can autonomously reroute the delivery truck or
+    re-sequence the drop-offs to hit the specified 08:09 pickup window without human dispatcher intervention. 
 
 *   **Smart Inventory Rebalancing Agent:**
 
@@ -134,7 +134,7 @@ The XML order data shared is a perfect "trigger" for several specialized AI agen
 
     **Procurement Agent**: Automatically orders more shipping CTNs (cartons) because it sees the Size value is high in the current orders.
     
-    **Customer Service Agent**: Proactively messages the store manager at (01103) if the truck is running more than 15 minutes late, using the data directly from the XML order message. 
+    **Customer Service Agent**: Proactively messages the store manager at (00053) if the truck is running more than 15 minutes late, using the data directly from the XML order message. 
 
 --- 
 
