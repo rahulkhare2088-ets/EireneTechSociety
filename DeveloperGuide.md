@@ -1,4 +1,4 @@
-# 📈 Demand Forecasting & Trend Prediction 
+## 📈 Demand Forecasting & Trend Prediction 
 
 As a developer partner on the our platform, you can easily implement inventory demand forecasting, AI-driven stock prediction, and trend analysis within your own AI agents, web dashboards, or mobile applications. 
 
