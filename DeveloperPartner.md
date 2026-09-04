@@ -1,4 +1,4 @@
-# Vendor Transformation
+## Vendor Transformation
 
 The emergence of malls, e-commerce and corporate retail has affected local legacy vendor or shop keepers in neighborhood over years, but seems they still survived and growing despite challenge is true in india.
 
