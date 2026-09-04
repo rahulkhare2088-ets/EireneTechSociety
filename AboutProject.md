@@ -1,5 +1,3 @@
-# ETS Order Fulfillment Processor Engine v1.0.0-Beta 
-
 A high-performance, modular supply chain infrastructure engine built on **Spring Boot (Java open-source ecosystem)**. This ecosystem provides a secure **OAuth2 Authorization Server**, an isolated **API Gateway Proxy**, and a resilient **Fulfillment Processing Core** designed to handle asynchronous e-commerce (B2B) transaction state machines at scale.  
 
 ℹ️ **Project Status:** Currently operating in **Phase 1 (Bootstrapping)**. The hosted API endpoints are **100% Free** for public use, sustained entirely via developer sponsorships and crowdfunding. 
