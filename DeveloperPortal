@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portal</title>
+    <style>
+        /* Reset margins for a full-screen layout */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body, html {
+            height: 100%;
+            overflow: hidden; /* Prevents double scrollbars */
+            font-family: Arial, sans-serif;
+        }
+
+        /* Your Custom Branded Header */
+        .custom-header {
+            height: 70px; /* Fixed height for your header */
+            background-color: #1a1a1a;
+            color: white;
+            display: flex;
+            align-items: center;
+            padding: 0 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        .custom-header img {
+            height: 40px; /* Adjust based on your logo size */
+            margin-right: 15px;
+        }
+        .custom-header h1 {
+            font-size: 1.2rem;
+            letter-spacing: 0.5px;
+        }
+
+        /* Seamless Iframe Container */
+        .iframe-container {
+            height: calc(100% - 70px); /* Fills the remaining screen space */
+            width: 100%;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none; /* Removes the ugly default browser border */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 1. Your Branded Header -->
+    <header class="custom-header">
+        <img src="https://rahulkhare2088-ets.github.io/EireneTechSociety/ets_logo_latest.png" alt="Eirene Tech Society Logo">
+        <h1>Developer Portal Eirene Tech Society</h1>
+    </header>
+
+    <!-- 2. Embedded Swagger UI Application -->
+    <div class="iframe-container">
+        <iframe src="https://portal.eirenetechsociety.in/swagger-ui/index.html"></iframe>
+    </div>
+
+</body>
+</html>
