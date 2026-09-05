@@ -3,7 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Developer Portal</title>
+    <title>Developer Portal Eirene Tech Society</title>
+    <meta name="description" content="Developer Portal Eirene Tech Society API Documentation for Authorization Server and Order Fulfillment Processor Engine">
+    <meta name="keywords" content="Order Fulfillment Processor Engine, Developer Portal, Eirene Tech Society, API Documentation, Authorization Server">
+    <link rel="canonical" href="https://www.eirenetechsociety.in/DeveloperPortal.html">
+    <meta name="robots" content="index, follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Developer Portal Eirene Tech Society">
+    <meta property="og:description" content="Developer Portal Eirene Tech Society API Documentation for Authorization Server and Order Fulfillment Processor Engine">
+    <meta property="og:image" content="https://www.eirenetechsociety.in/ets_logo_mini.jpg">
+    <meta property="og:url" content="https://www.eirenetechsociety.in/DeveloperPortal.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Developer Portal Eirene Tech Society">
+    <meta name="twitter:description" content="Developer Portal Eirene Tech Society API Documentation for Authorization Server and Order Fulfillment Processor Engine">
+    <meta name="twitter:image" content="https://www.eirenetechsociety.in/ets_logo_mini.jpg">
     <style>
         /* Reset margins for a full-screen layout */
         * {
@@ -13,54 +26,39 @@
         }
         body, html {
             height: 100%;
-            overflow: hidden; /* Prevents double scrollbars */
+            overflow: hidden;
             font-family: Arial, sans-serif;
         }
-
-        /* Your Custom Branded Header */
         .custom-header {
-            height: 60px; /* Fixed height for your header */
+            height: 60px; 
             background-color: #1a1a1a;
             color: white;
             display: flex;
             align-items: center;
             padding: 0 20px;
-            /* box-shadow: 0 2px 5px rgba(0,0,0,0.2); */
             position: absolute;
         }
         .custom-header img {
-            height: 55px; /* Adjust based on your logo size */
+            height: 55px; 
             margin-right: 15px;
         }
-        .custom-header h1 {
-            font-size: 1.2rem;
-            letter-spacing: 0.5px;
-        }
-
-        /* Seamless Iframe Container */
         .iframe-container {
-            height: calc(100% - 70px); /* Fills the remaining screen space */
+            height: calc(100% - 70px); 
             width: 100%;
         }
         iframe {
             width: 100%;
             height: 113%;
-            border: none; /* Removes the ugly default browser border */
+            border: none; 
         }
     </style>
 </head>
 <body>
-
-    <!-- 1. Your Branded Header -->
     <header class="custom-header">
-        <img src="https://rahulkhare2088-ets.github.io/EireneTechSociety/ets_logo_latest2.png" alt="Eirene Tech Society Logo">
-        <!-- <h1>Developer Portal Eirene Tech Society</h1> -->
+        <a href="https://www.eirenetechsociety.in"><img src="https://rahulkhare2088-ets.github.io/EireneTechSociety/ets_logo_latest2.png" alt="Eirene Tech Society Logo"></a>
     </header>
-
-    <!-- 2. Embedded Swagger UI Application -->
     <div class="iframe-container">
         <iframe src="https://portal.eirenetechsociety.in/swagger-ui/index.html"></iframe>
     </div>
-
 </body>
 </html>
