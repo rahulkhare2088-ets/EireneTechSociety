@@ -58,27 +58,8 @@
 
     <!-- 2. Embedded Swagger UI Application -->
     <div class="iframe-container">
-        <iframe id="swagger-frame" src="https://portal.eirenetechsociety.in/swagger-ui/index.html"></iframe>
+        <iframe src="https://portal.eirenetechsociety.in/swagger-ui/index.html"></iframe>
     </div>
-
-    <script>
-  const iframe = document.getElementById('swagger-frame');
-
-  // Wait for the Swagger application to finish loading inside the iframe
-  iframe.addEventListener('load', () => {
-    try {
-      const iframeDocument = iframe.contentDocument || iframe.contentWindow.document;
-      
-      // Target and hide the entire topbar/logo container
-      const topbar = iframeDocument.querySelector('.swagger-ui .topbar');
-      if (topbar) {
-        topbar.style.display = 'none';
-      }
-    } catch (error) {
-      console.error("Cannot modify iframe due to Cross-Origin restrictions.", error);
-    }
-  });
-</script>
 
 </body>
 </html>
