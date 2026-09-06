@@ -18,7 +18,6 @@
     <meta name="twitter:description" content="Developer Portal Eirene Tech Society API Documentation for Authorization Server and Order Fulfillment Processor Engine">
     <meta name="twitter:image" content="https://www.eirenetechsociety.in/ets_logo_mini.jpg">
     <style>
-        /* Reset margins for a full-screen layout */
         * {
             box-sizing: border-box;
             margin: 0;
@@ -53,8 +52,6 @@
            padding: 14px 23px;
            font-size: 27px;
         }
-
-       /* Fixed tracking bar wrapper */
         .scroll-box-wrapper {
           position: fixed;
           top: 0;
@@ -63,17 +60,14 @@
           height: 10px;
           z-index: 1000;
         }
-    
-        /* The snapping & fading div inside */
         .scroll-box {
-          height: 60px;
           background-color: #1a1a1a;
           
           /* Base values at the very top of the page */
           width: 0%; 
           opacity: 0;
           
-          /* 1. Apply two separate animations tied to the scroll timeline */
+          /* Apply two separate animations tied to the scroll timeline */
           animation: 
             snapWidth steps(1, end) both,
             fadeInSmooth linear both;
@@ -82,19 +76,17 @@
           /* Both animations execute across the header's height footprint */
           animation-range: 0px 150px; 
         }
-    
         /* Sudden layout transformation */
         @keyframes snapWidth {
           from { width: 0%; }
           to { width: 100%; }
         }
-    
         /* Smooth visual transition that occurs right at the threshold */
         @keyframes fadeInSmooth {
           0% {
             opacity: 0;
           }
-          /* 2. Keeps it hidden until the header is nearly gone, then fades in quickly */
+          /* Keeps it hidden until the header is nearly gone, then fades in quickly */
           85% {
             opacity: 0;
           }
@@ -109,7 +101,7 @@
         <a href="https://www.eirenetechsociety.in"><img src="https://rahulkhare2088-ets.github.io/EireneTechSociety/ets_logo_latest2.png" alt="Eirene Tech Society Logo"></a>
         <div class="scroll-box-wrapper">
             <div class="scroll-box">
-                 <H1>Developer Portal Eirene Tech Society</H1>
+                 <H1>Developer Portal-ETS</H1>
             </div>
     </div>
     </header>
