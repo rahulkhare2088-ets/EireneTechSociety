@@ -50,12 +50,77 @@
             height: 113%;
             border: none; 
         }
+
+/* Fixed tracking bar wrapper */
+    .scroll-box-wrapper {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 10px;
+      z-index: 1000;
+    }
+
+    /* The snapping & fading div inside */
+    .scroll-box {
+      height: 100%;
+      background: #3b82f6; 
+      
+      /* Base values at the very top of the page */
+      width: 0%; 
+      opacity: 0;
+      
+      /* 1. Apply two separate animations tied to the scroll timeline */
+      animation: 
+        snapWidth steps(1, end) both,
+        fadeInSmooth linear both;
+      animation-timeline: scroll(root);
+      
+      /* Both animations execute across the header's height footprint */
+      animation-range: 0px 150px; 
+    }
+
+    /* Sudden layout transformation */
+    @keyframes snapWidth {
+      from { width: 0%; }
+      to { width: 100%; }
+    }
+
+    /* Smooth visual transition that occurs right at the threshold */
+    @keyframes fadeInSmooth {
+      0% {
+        opacity: 0;
+      }
+      /* 2. Keeps it hidden until the header is nearly gone, then fades in quickly */
+      85% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+    .content {
+      padding: 20px;
+      font-size: 1.2rem;
+    }
+        
     </style>
 </head>
 <body>
     <header class="custom-header">
         <a href="https://www.eirenetechsociety.in"><img src="https://rahulkhare2088-ets.github.io/EireneTechSociety/ets_logo_latest2.png" alt="Eirene Tech Society Logo"></a>
     </header>
+
+<div class="scroll-box-wrapper">
+    <div class="scroll-box"></div>
+  </div>
+
+  <div class="content">
+    <p>↓ Scroll down. The bar instantly locks to 100% width and softly fades into view right as the header clears the screen.</p>
+    <p>↑ Scroll back up. It smoothly fades out and pops back to 0% width.</p>
+  </div>
+    
     <div class="iframe-container">
         <iframe src="https://portal.eirenetechsociety.in/swagger-ui/index.html"></iframe>
     </div>
