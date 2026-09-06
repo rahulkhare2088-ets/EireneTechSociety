@@ -26,7 +26,7 @@
         }
         body, html {
             height: 300vh;
-            font-family: Arial, sans-serif;
+            font-family: sans-serif;
         }
         .custom-header {
             height: 60px; 
@@ -48,56 +48,60 @@
             height: 113%;
             border: none; 
         }
+        h1 {
+           color: white;
+           padding: 14px 23px;
+           font-size: 27px;
+        }
 
-/* Fixed tracking bar wrapper */
-    .scroll-box-wrapper {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 10px;
-      z-index: 1000;
-    }
-
-    /* The snapping & fading div inside */
-    .scroll-box {
-      height: 100%;
-      background-color: #1a1a1a;
-      
-      /* Base values at the very top of the page */
-      width: 0%; 
-      opacity: 0;
-      
-      /* 1. Apply two separate animations tied to the scroll timeline */
-      animation: 
-        snapWidth steps(1, end) both,
-        fadeInSmooth linear both;
-      animation-timeline: scroll(root);
-      
-      /* Both animations execute across the header's height footprint */
-      animation-range: 0px 150px; 
-    }
-
-    /* Sudden layout transformation */
-    @keyframes snapWidth {
-      from { width: 0%; }
-      to { width: 100%; }
-    }
-
-    /* Smooth visual transition that occurs right at the threshold */
-    @keyframes fadeInSmooth {
-      0% {
-        opacity: 0;
-      }
-      /* 2. Keeps it hidden until the header is nearly gone, then fades in quickly */
-      85% {
-        opacity: 0;
-      }
-      100% {
-        opacity: 1;
-      }
-    }
-        
+       /* Fixed tracking bar wrapper */
+        .scroll-box-wrapper {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 10px;
+          z-index: 1000;
+        }
+    
+        /* The snapping & fading div inside */
+        .scroll-box {
+          height: 60px;
+          background-color: #1a1a1a;
+          
+          /* Base values at the very top of the page */
+          width: 0%; 
+          opacity: 0;
+          
+          /* 1. Apply two separate animations tied to the scroll timeline */
+          animation: 
+            snapWidth steps(1, end) both,
+            fadeInSmooth linear both;
+          animation-timeline: scroll(root);
+          
+          /* Both animations execute across the header's height footprint */
+          animation-range: 0px 150px; 
+        }
+    
+        /* Sudden layout transformation */
+        @keyframes snapWidth {
+          from { width: 0%; }
+          to { width: 100%; }
+        }
+    
+        /* Smooth visual transition that occurs right at the threshold */
+        @keyframes fadeInSmooth {
+          0% {
+            opacity: 0;
+          }
+          /* 2. Keeps it hidden until the header is nearly gone, then fades in quickly */
+          85% {
+            opacity: 0;
+          }
+          100% {
+            opacity: 1;
+          }
+        }
     </style>
 </head>
 <body>
