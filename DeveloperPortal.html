@@ -31,8 +31,6 @@
         }
         .custom-header {
             height: 60px; 
-            background-color: #1a1a1a;
-            color: white;
             display: flex;
             align-items: center;
             padding: 0 20px;
@@ -64,7 +62,7 @@
     /* The snapping & fading div inside */
     .scroll-box {
       height: 100%;
-      background: #3b82f6; 
+      background-color: #1a1a1a;
       
       /* Base values at the very top of the page */
       width: 0%; 
@@ -99,27 +97,17 @@
         opacity: 1;
       }
     }
-
-    .content {
-      padding: 20px;
-      font-size: 1.2rem;
-    }
         
     </style>
 </head>
 <body>
     <header class="custom-header">
         <a href="https://www.eirenetechsociety.in"><img src="https://rahulkhare2088-ets.github.io/EireneTechSociety/ets_logo_latest2.png" alt="Eirene Tech Society Logo"></a>
+
+        <div class="scroll-box-wrapper">
+        <div class="scroll-box"><H1>Developer Portal</H1></div>
+    </div>
     </header>
-
-<div class="scroll-box-wrapper">
-    <div class="scroll-box"></div>
-  </div>
-
-  <div class="content">
-    <p>↓ Scroll down. The bar instantly locks to 100% width and softly fades into view right as the header clears the screen.</p>
-    <p>↑ Scroll back up. It smoothly fades out and pops back to 0% width.</p>
-  </div>
     
     <div class="iframe-container">
         <iframe src="https://portal.eirenetechsociety.in/swagger-ui/index.html"></iframe>
