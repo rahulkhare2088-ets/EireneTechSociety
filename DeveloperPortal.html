@@ -37,12 +37,10 @@
 
 /* Base values at the very top of the page */
           width: 20%; 
-          opacity: 0;
           
           /* Apply two separate animations tied to the scroll timeline */
           animation: 
             snapWidth steps(1, end) both,
-            fadeInSmooth linear both;
           animation-timeline: scroll(root);
           
           /* Both animations execute across the header's height footprint */
@@ -113,11 +111,11 @@
 <body>
     <header class="custom-header">
         <a href="https://www.eirenetechsociety.in"><img src="https://rahulkhare2088-ets.github.io/EireneTechSociety/ets_logo_latest2.png" alt="Eirene Tech Society Logo"></a>
-        <div class="scroll-box-wrapper">
+        <!-- <div class="scroll-box-wrapper">
             <div class="scroll-box">
                  <H1>Developer Portal ETS</H1>
             </div>
-    </div>
+        </div> -->
     </header>
     <div class="iframe-container">
         <iframe src="https://portal.eirenetechsociety.in/swagger-ui/index.html"></iframe>
