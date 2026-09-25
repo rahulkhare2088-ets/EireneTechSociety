@@ -9,8 +9,7 @@ A high-performance, modular supply chain infrastructure engine built on **Spring
 
 *   **BaaS (Backend as a Service) project Links:**
   
-    [API Gateway Proxy](https://portal.eirenetechsociety.in/swagger-ui/index.html)
-    [Authorization Server](https://auth.eirenetechsociety.in/auth) 
+    [Developer Portal Eirene Tech Society](https://www.eirenetechsociety.in/DeveloperPortal.html)
 
 --- 
 
