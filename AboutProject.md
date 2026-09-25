@@ -125,13 +125,13 @@ We believe in building public utilities transparently. The engine follows a phas
 
  
 
-Maintaining real-time server clusters on Render, AWS, and Neon requires continuous compute power. If this order processing engine accelerates your development workflows, please consider sponsoring our live runtime costs: 
+Maintaining real-time server clusters on Render, AWS, and Neon requires continuous compute power. If this order processing engine accelerates your development workflows, please consider sponsoring our live runtime costs with below options: 
 
  
 
-*   🌐 **International Support:** [Sponsor via GitHub Sponsors](https://github.com) (Zero processing fees) 
+*   🌐 **Payment Gateway Option 1:** [Sponsor via GitHub Sponsors](https://www.eirenetechsociety.in) 
 
-*   🇮🇳 **Domestic India (UPI/Cards):** [Support via Razorpay Page](https://rzp.io) 
+*   🇮🇳 **Payment Gateway Option 2:** [Support via Buy Me A Coffee](https://www.eirenetechsociety.in/) 
 
  
 
