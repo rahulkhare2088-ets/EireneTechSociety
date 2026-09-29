@@ -188,7 +188,7 @@ Here is how our BaaS (Backend-as-a-Service) engine fits into the Indian retail e
     Most B2B platforms in India are "monolithic" (rigid and hard to customize). Our API-first approach allows for Headless B2B Commerce.
 
     **The Opportunity**: A developer can build a custom WhatsApp Bot that uses our API to check inventory and place orders. The shopkeeper never sees our platform; they only interact
-     with the bot, while your engine handles the complex fulfillment logic in the background.
+     with the bot, while our engine handles the complex fulfillment logic in the background.
 
 *   **The "Distributed Trust" Layer (B2B Marketplace)**
 
