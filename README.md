@@ -64,6 +64,6 @@ Only need to add your created client id/secret to generate token to call API.
 
 For any query/feedback/enquiry please email at - contact@eirenetechsociety.in
 
-For Free [Privileged Access](https://www.jotform.com/form/262682327485062) API role raise request
+For Free [Privilege Access](https://www.jotform.com/form/262682327485062) API role raise request
 
 For Sponsorship please email at - ticket@eirenetechsociety.in
