@@ -15,7 +15,7 @@ Every donation helps cover live cluster costs on Render, AWS, and Neon DB to kee
 
 --- 
 
-**About this workspace**
+**About this API (application programming interface) collection for BaaS (Backend as a Service) platform**
 
 This workspace has public ETS API collections and anyone can refer it for development and testing purpose for later integration into their AI Agent/Web UI/Mobile App client. 
 
@@ -28,10 +28,24 @@ Visit - [Developer Portal Eirene Tech Society](https://www.eirenetechsociety.in/
 After user access and client creation, can use it to browse API to learn it, test it and understand it.
 If satisfied and interested, go ahead to use this collection for further development purpose to integrate/call API in to your client (AI Agent/Web UI/Mobile App) for your usecase.
 
-**What's included**
+**What's included - Pre Early Access Release**
 
-Phase 1 beta early access release (Closed Source - Free Public API Tier) constitute Order Fulfillment Processor Engine API collection.
-Future release might include collection for Authorization server API for client and user management and hence will be notified accordingly.
+Phase 1 beta early access release (Closed Source - Free Public API Tier) constitute Order Fulfillment Processor Engine API collection. 
+The hosted API endpoints are 100% Free for public use, sustained entirely via developer sponsorships and crowdfunding.
+
+**What's excluded - Post Early Access Release**
+
+Post beta early access release can include collection for Authorization server API for client and user management and hence will be notified accordingly.
+
+For Privilege Access API role would require user to subscribe for paid plan rates.
+
+Later Phase 2 Enterprise API Tier will be individual custom paid plan rates.
+
+**Instructions for integration**
+
+AI Agents / Backend (Machine-to-Machine) Integration: Developers to pass credentials via standard Basic Auth headers to use the Client Credentials Flow.
+
+Frontend Web UI & Mobile Apps (Public Clients) Integration (Post Early Access Launch): Developers to leave the authentication method client_secret_basic parameter entirely out of their configuration and initialize their OAuth libraries (like oidc-client-ts or AppAuth) with PKCE enabled to use the Authorization Code Flow.
 
 Note: Already variables with values set for API endpoint Base URL and OAuth 2 Authorization purpose with scopes and other parameter preset,
 Only need to add your created client id/secret to generate token to call API.
@@ -50,6 +64,6 @@ Only need to add your created client id/secret to generate token to call API.
 
 For any query/feedback/enquiry please email at - contact@eirenetechsociety.in
 
-For [Privileged Access](https://www.jotform.com/form/262682327485062) API role raise request
+For Free [Privileged Access](https://www.jotform.com/form/262682327485062) API role raise request
 
 For Sponsorship please email at - ticket@eirenetechsociety.in
