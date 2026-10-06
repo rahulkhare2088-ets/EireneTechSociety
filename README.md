@@ -1,4 +1,4 @@
-Introducing Phase 1: Closed Source - Free Public API Tier. 
+**Introducing Phase 1: Closed Source - Free Public API Tier**
 
 A High-Performance Order Fulfillment Processor Engine, An industrial-grade ecosystem featuring an Authorization Server, robust API Gateway, and resilient processing cores designed to scale your business logistics seamlessly. 
 
@@ -8,25 +8,27 @@ It functions as an advanced logistics software layer handling order orchestratio
 
 Our engine does not deal with the upstream creation of goods (Sourcing or Manufacturing). Instead, it is a high-performance, developer-facing Logistics and Order Fulfillment Engine designed to handle the critical transaction and data-routing infrastructure needed to move products efficiently to the market. 
 
-Support the Infrastructure
+**Support the Infrastructure**
 
 This project is run/developed/architected entirely by a solo founder. 
 Every donation helps cover live cluster costs on Render, AWS, and Neon DB to keep the system free for the global developer community.
 
-About this workspace
+--- 
+
+**About this workspace**
 
 This workspace has public ETS API collections and anyone can refer it for development and testing purpose for later integration into their AI Agent/Web UI/Mobile App client. 
 
-Read more at - www.eirenetechsociety.in
+Read more at - [www.eirenetechsociety.in](https://www.eirenetechsociety.in)
 
-Getting started
+**Getting started**
 
-Visit - Developer Portal Eirene Tech Society
+Visit - [Developer Portal Eirene Tech Society](https://www.eirenetechsociety.in/DeveloperPortal.html)
 
 After user access and client creation, can use it to browse API to learn it, test it and understand it.
 If satisfied and interested, go ahead to use this collection for further development purpose to integrate/call API in to your client (AI Agent/Web UI/Mobile App) for your usecase.
 
-What's included
+**What's included**
 
 Phase 1 beta early access release (Closed Source - Free Public API Tier) constitute Order Fulfillment Processor Engine API collection.
 Future release might include collection for Authorization server API for client and user management and hence will be notified accordingly.
@@ -34,20 +36,20 @@ Future release might include collection for Authorization server API for client 
 Note: Already variables with values set for API endpoint Base URL and OAuth 2 Authorization purpose with scopes and other parameter preset,
 Only need to add your created client id/secret to generate token to call API.
 
-Further more please read below documentations
+**Further more please read below documentations**
 
-About Project
+[About Project](https://www.eirenetechsociety.in/AboutProject.html)
 
-Usecase And Audience
+[Usecase And Audience](https://www.eirenetechsociety.in/UsecaseAndAudience.html)
 
-Developer Guide
+[Developer Guide](https://www.eirenetechsociety.in/DeveloperGuide.html)
 
-Developer Partner
+[Developer Partner](https://www.eirenetechsociety.in/DeveloperPartner.html)
 
-Notes
+**Notes**
 
 For any query/feedback/enquiry please email at - contact@eirenetechsociety.in
 
-For Privileged Access API role raise request
+For [Privileged Access](https://www.jotform.com/form/262682327485062) API role raise request
 
 For Sponsorship please email at - ticket@eirenetechsociety.in
