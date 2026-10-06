@@ -13,9 +13,9 @@ Support the Infrastructure
 This project is run/developed/architected entirely by a solo founder. 
 Every donation helps cover live cluster costs on Render, AWS, and Neon DB to keep the system free for the global developer community.
 
-About this Repo
+About this workspace
 
-This repo has public ETS collections and anyone can refer it for development testing purpose for later integration in to their AI Agent/Web UI/Mobile App client. 
+This workspace has public ETS API collections and anyone can refer it for development and testing purpose for later integration into their AI Agent/Web UI/Mobile App client. 
 
 Read more at - www.eirenetechsociety.in
 
@@ -32,9 +32,9 @@ Phase 1 beta early access release (Closed Source - Free Public API Tier) constit
 Future release might include collection for Authorization server API for client and user management and hence will be notified accordingly.
 
 Note: Already variables with values set for API endpoint Base URL and OAuth 2 Authorization purpose with scopes and other parameter preset,
-Only needed to add your created client id/secret to generate token to call API.
+Only need to add your created client id/secret to generate token to call API.
 
-Further more please read below documentations:
+Further more please read below documentations
 
 About Project
 
