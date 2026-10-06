@@ -15,9 +15,9 @@ Every donation helps cover live cluster costs on Render, AWS, and Neon DB to kee
 
 --- 
 
-**About this API (application programming interface) collection for BaaS (Backend as a Service) platform**
+**About our API (application programming interface) collection for BaaS (Backend as a Service) platform**
 
-This workspace has public ETS API collections and anyone can refer it for development and testing purpose for later integration into their AI Agent/Web UI/Mobile App client. 
+This platform has public ETS API collections and anyone can refer it for development and testing purpose for later integration into their AI Agent/Web UI/Mobile App client. 
 
 Read more at - [www.eirenetechsociety.in](https://www.eirenetechsociety.in)
 
