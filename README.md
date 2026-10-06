@@ -26,7 +26,7 @@ Read more at - [www.eirenetechsociety.in](https://www.eirenetechsociety.in)
 Visit - [Developer Portal Eirene Tech Society](https://www.eirenetechsociety.in/DeveloperPortal.html)
 
 After user access and client creation, can use it to browse API to learn it, test it and understand it.
-If satisfied and interested, go ahead to use this collection for further development purpose to integrate/call API in to your client (AI Agent/Web UI/Mobile App) for your usecase.
+If satisfied and interested, go ahead to use this API collection for further development purpose to integrate/call API in to your client (AI Agent/Web UI/Mobile App) for your usecase.
 
 **What's included - Pre Early Access Release**
 
