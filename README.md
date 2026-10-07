@@ -47,9 +47,6 @@ AI Agents / Backend (Machine-to-Machine) Integration: Developers to pass credent
 
 Frontend Web UI & Mobile Apps (Public Clients) Integration (Post Early Access Launch): Developers to leave the authentication method client_secret_basic parameter entirely out of their configuration and initialize their OAuth libraries (like oidc-client-ts or AppAuth) with PKCE enabled to use the Authorization Code Flow.
 
-Note: Already variables with values set for API endpoint Base URL and OAuth 2 Authorization purpose with scopes and other parameter preset,
-Only need to add your created client id/secret to generate token to call API.
-
 **Further more please read below documentations**
 
 [About Project](https://www.eirenetechsociety.in/AboutProject.html)
