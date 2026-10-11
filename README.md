@@ -47,6 +47,14 @@ AI Agents / Backend (Machine-to-Machine) Integration: Developers to pass credent
 
 Frontend Web UI & Mobile Apps (Public Clients) Integration (Post Early Access Launch): Developers to leave the authentication method client_secret_basic parameter entirely out of their configuration and initialize their OAuth libraries (like oidc-client-ts or AppAuth) with PKCE enabled to use the Authorization Code Flow.
 
+**Notes**
+
+For any query/feedback/enquiry please email at - contact@eirenetechsociety.in
+
+For Free [Privilege Access](https://www.jotform.com/form/262682327485062) API role raise request
+
+For Sponsorship please email at - ticket@eirenetechsociety.in
+
 **Further more please read below documentations**
 
 [About Project](https://www.eirenetechsociety.in/AboutProject.html)
@@ -56,11 +64,3 @@ Frontend Web UI & Mobile Apps (Public Clients) Integration (Post Early Access La
 [Developer Guide](https://www.eirenetechsociety.in/DeveloperGuide.html)
 
 [Developer Partner](https://www.eirenetechsociety.in/DeveloperPartner.html)
-
-**Notes**
-
-For any query/feedback/enquiry please email at - contact@eirenetechsociety.in
-
-For Free [Privilege Access](https://www.jotform.com/form/262682327485062) API role raise request
-
-For Sponsorship please email at - ticket@eirenetechsociety.in
