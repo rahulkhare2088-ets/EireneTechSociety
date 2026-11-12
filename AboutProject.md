@@ -137,4 +137,4 @@ Maintaining real-time server clusters on Render, AWS, and Neon requires continuo
 
 --- 
 
-*Developed and maintained by © Eirene Tech Society. Driven by open-access technology.* 
+*Developed and maintained by © 2026 Eirene Tech Society. Driven by open-access technology.* 
