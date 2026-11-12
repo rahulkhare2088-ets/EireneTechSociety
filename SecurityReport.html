@@ -115,51 +115,31 @@
   <div id="content">
                <h2 style="text-align: center; color: #888;">Web Application Firewall Security Assessment Report</h2>
                 
-               <h5 style="text-align: left; color: #888;">Nature of Financial Support</h5>
+               <h5 style="text-align: left; color: #888;">False Positive Test</h5>
     
-               <p>By contributing funds via GitHub Sponsors, Buy Me a Coffee, or any other integrated payment 
-               gateway during this phase of the project, you explicitly acknowledge and agree that your 
-               payment is a voluntary commercial sponsorship.  
+               <p>What is a False Positive Test? This test uses legitimate, safe payloads to check if your WAF is blocking normal traffic. 
+                 If you see 403 (red), it means legitimate requests are being blocked - this is a false positive and should be investigated. 
+                 Status 3xx (orange) means the server redirected the request. This could be a normal redirect or the WAF redirecting to a block page. 
+                 Check the redirect location to determine if legitimate traffic is being redirected unnecessarily.  
                <br><br>
-                 * These funds do not constitute a charitable donation, an investment, or a purchase of company equity.  
+                 *   
                <br>  
-                 * Eirene Tech Society is currently operated by an individual creator and is not a registered 
-                 non-profit, Section 8 entity, or NGO. Therefore, your contributions are not eligible for tax-deductions 
-                 under Section 80G or any other global tax-exempt frameworks. </p>
+                 * 
+               </p>
 
-               <h5 style="text-align: left; color: #888;">Digital Rewards and Indirect Benefits</h5> 
+               <h5 style="text-align: left; color: #888;">Security Test</h5> 
                
-               <p>Any perks, digital rewards, or indirect benefits provided to sponsors (including, but not limited to,
-               free API tier access, alpha/beta testing privileges, logo placement, feature request or public credit/acknowledgment)
-               are provided entirely at the creator's discretion.  
+               <p>What are these tests? This test sends malicious payloads (SQL Injection, XSS, etc.) to check if your WAF blocks them. 
+                 Status 403 (green) means the WAF detected and blocked the attack. 
+                 Status 200 (red) means the attack succeeded - your application is vulnerable and the WAF did not protect it. 
+                 Status 3xx (orange) means the server redirected the request. 
+                 This could indicate the WAF is redirecting to a block page (good), or the server is redirecting normally (requires investigation). 
+                 Check the redirect location to determine if it's a block page or a normal redirect.  
                <br><br>
-                 * These perks are non-transferable and do not create a permanent service-level agreement (SLA) or a binding client-vendor contract. 
+                 *  
                <br>  
-                 * The creator reserves the right to modify, adjust, or discontinue specific sponsor rewards or API tiers at any time due to 
-                 technical constraints or project updates.</p>
-
-               <h5 style="text-align: left; color: #888;">Strictly Non-Refundable</h5>
-               
-               <p>All sponsorships, micro-donations, and tier payments are final, processed immediately, and strictly non-refundable.
-               By initiating a payment transaction, you waive any rights to a chargeback or refund based on project delays, feature
-               changes, or a shift in the project's development roadmap.</p> 
-
-               <h5 style="text-align: left; color: #888;">International Compliance and Local Taxes</h5> 
-    
-               <p>For international sponsors, your transaction is processed as a cross-border commercial payment for digital sponsorship services.  
-                <br><br>
-                 * You are solely responsible for any local taxes, currency conversion fees, or bank charges incurred on your end.  
-                <br> 
-                 * For domestic Indian sponsors, these payments are recognized as business revenue under Indian tax laws, and the
-                 operator complies with all personal income tax and GST frameworks mandated by the Government of India.</p> 
-
-               <h5 style="text-align: left; color: #888;">Limitation of Personal Liability</h5> 
-               
-               <p>You agree to support this open-source project "as-is" without any warranties of any kind. To the maximum extent permitted by applicable law,
-               the individual creator shall not be held personally liable for any service interruptions, API downtime, data losses, or direct or 
-               indirect damages resulting from your use of the platform or your financial sponsorship.</p>
-
-               <h5 style="text-align: left; color: #888; text-decoration: underline;">For any query/feedback/enquiry please email at - contact@eirenetechsociety.in</h5>
+                 * 
+               </p>
   </div>
 </body>
 </html>
